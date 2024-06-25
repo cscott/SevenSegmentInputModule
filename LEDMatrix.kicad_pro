@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.33
         }
       },
       "diff_pair_dimensions": [
@@ -59,8 +59,11 @@
         }
       ],
       "drc_exclusions": [
+        "courtyards_overlap|53575434|166954040|2065b6ff-d30a-48c4-8b46-a5434bdb4930|883fde6a-d237-4467-a4fd-b5f24169781c",
+        "courtyards_overlap|54135945|167064223|2065b6ff-d30a-48c4-8b46-a5434bdb4930|7c134daf-c593-40d0-8123-86a260e3473e",
         "courtyards_overlap|62365001|173204976|1200802b-8375-46e3-9e38-a7ba83b57bd6|780af0df-7182-4740-899d-135e7571518c",
-        "courtyards_overlap|71464999|174746024|780af0df-7182-4740-899d-135e7571518c|b020fc63-bc15-4402-a78c-353a4de52bdb"
+        "courtyards_overlap|71464999|174746024|780af0df-7182-4740-899d-135e7571518c|b020fc63-bc15-4402-a78c-353a4de52bdb",
+        "silk_overlap|71678800|155448000|8c7049c6-3bef-4eaf-bdd3-fa963dfff6e7|5e9d5790-c124-4b12-b8e9-ce77ac811bb6"
       ],
       "meta": {
         "version": 2
@@ -136,7 +139,7 @@
         "min_via_diameter": 0.25,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -481,8 +484,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
-        "via_diameter": 0.508,
-        "via_drill": 0.254,
+        "via_diameter": 0.5,
+        "via_drill": 0.2,
         "wire_width": 6
       }
     ],

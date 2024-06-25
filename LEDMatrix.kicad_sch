@@ -7769,6 +7769,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C4109"
+			(at 251.46 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ae7a9e6c-4dcc-4727-bacb-ab3cc4171ea0")
 		)
@@ -8008,7 +8017,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "489bb6c4-c1aa-4f03-a4e0-de488cf682ae")
 		(property "Reference" "TP1"
 			(at 44.45 130.81 90)
@@ -8491,7 +8500,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "624fcc0f-a441-4f04-bbea-2f50d796e29d")
 		(property "Reference" "TP5"
 			(at 34.29 95.25 90)
@@ -10076,7 +10085,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "926fc328-39b1-4182-b2b0-edae4a9897f2")
 		(property "Reference" "TP2"
 			(at 44.45 133.35 90)
@@ -10206,7 +10215,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9a0ef07e-7232-4147-813b-6d5d4bbbf27e")
 		(property "Reference" "SW2"
@@ -11115,7 +11124,7 @@
 				)
 			)
 		)
-		(property "Value" "330k"
+		(property "Value" "180k"
 			(at 76.2 233.68 90)
 			(effects
 				(font
@@ -11150,7 +11159,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23137"
+		(property "LCSC" "C25760"
 			(at 73.66 231.14 0)
 			(effects
 				(font
@@ -11199,7 +11208,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b31ec11b-d952-4361-bcf7-542284cdc258")
 		(property "Reference" "TP4"
 			(at 44.45 138.43 90)
@@ -12264,7 +12273,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "dff71435-a067-46e7-baa7-73204ffadfeb")
 		(property "Reference" "J1"
@@ -12426,6 +12435,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25741"
+			(at 251.46 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f1c5079f-6911-43b6-a942-5df6701fa938")
 		)
@@ -12579,7 +12597,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e67082da-4263-4b6c-a19c-b8a2facba494")
 		(property "Reference" "TP3"
 			(at 44.45 135.89 90)
@@ -12756,6 +12774,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C4109"
+			(at 256.54 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2c62f5b8-8069-403e-a706-4469998f354e")
 		)
@@ -12776,7 +12803,7 @@
 		(at 52.07 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -12818,6 +12845,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 52.07 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
 			(at 52.07 73.66 0)
 			(effects
 				(font
@@ -13092,6 +13128,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 135.89 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
 			(at 135.89 115.57 0)
 			(effects
 				(font
