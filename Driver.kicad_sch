@@ -1659,16 +1659,6 @@
 		)
 		(uuid "5d6c4015-0b4f-4f54-b6c8-dfbeaa55c110")
 	)
-	(bus
-		(pts
-			(xy 144.78 158.75) (xy 144.78 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e1c7908-e83b-4243-a879-9e73aafb6650")
-	)
 	(wire
 		(pts
 			(xy 81.28 21.59) (xy 81.28 20.32)
@@ -1718,6 +1708,16 @@
 			(type default)
 		)
 		(uuid "6e32f588-d679-41e2-8c2c-99792207f6fe")
+	)
+	(wire
+		(pts
+			(xy 125.73 114.3) (xy 160.02 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e4ea62d-1f41-429c-a37a-54a89e4ed87e")
 	)
 	(bus
 		(pts
@@ -1769,6 +1769,16 @@
 		)
 		(uuid "7d68ff7d-3710-4bed-ab86-bc4418315d36")
 	)
+	(bus
+		(pts
+			(xy 125.73 110.49) (xy 125.73 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f88c3da-c2cc-4bf0-acc0-be6f24e11fba")
+	)
 	(wire
 		(pts
 			(xy 101.6 57.15) (xy 123.19 57.15)
@@ -1778,6 +1788,16 @@
 			(type default)
 		)
 		(uuid "8afcd1ba-7fc1-455d-a218-ef92d4877eb7")
+	)
+	(bus
+		(pts
+			(xy 125.73 110.49) (xy 160.02 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fed6859-5a74-45fd-9b04-66ab8ce5f46c")
 	)
 	(bus
 		(pts
@@ -1878,16 +1898,6 @@
 			(type default)
 		)
 		(uuid "a1162733-c2e9-47bb-91b3-3a80fba06b31")
-	)
-	(bus
-		(pts
-			(xy 125.73 95.25) (xy 125.73 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a72235df-7a1b-427d-a4ee-19141b56822a")
 	)
 	(wire
 		(pts
@@ -2061,16 +2071,6 @@
 	)
 	(bus
 		(pts
-			(xy 144.78 110.49) (xy 160.02 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5a0ee4e-1a25-4f49-abb5-854c59a07818")
-	)
-	(bus
-		(pts
 			(xy 125.73 87.63) (xy 125.73 90.17)
 		)
 		(stroke
@@ -2118,16 +2118,6 @@
 			(type default)
 		)
 		(uuid "f0d2618f-8628-4294-a6c1-54b809488741")
-	)
-	(bus
-		(pts
-			(xy 125.73 158.75) (xy 144.78 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f698c6d2-99af-43f3-8466-b5a489647ae0")
 	)
 	(wire
 		(pts
@@ -2368,7 +2358,7 @@
 		(uuid "f3d2f55f-e8f1-4245-bf93-23cc74eb9cf3")
 	)
 	(label "CS[0..32]"
-		(at 135.89 158.75 180)
+		(at 138.43 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2389,6 +2379,18 @@
 			(justify right)
 		)
 		(uuid "0b9cc3cc-d964-489a-a6fa-a6a553199b36")
+	)
+	(hierarchical_label "NEOPIXEL"
+		(shape input)
+		(at 125.73 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4c0d0150-65ce-4b75-ab33-b47202940290")
 	)
 	(hierarchical_label "SCL"
 		(shape input)
@@ -3160,6 +3162,16 @@
 				(justify left)
 			)
 			(uuid "5b8403fb-d602-496b-bc8e-8a7965a1ccc0")
+		)
+		(pin "NEOPIXEL" input
+			(at 160.02 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6675bfa1-e27f-4047-b5ee-a95b17a0f9ce")
 		)
 		(instances
 			(project "LEDMatrix"

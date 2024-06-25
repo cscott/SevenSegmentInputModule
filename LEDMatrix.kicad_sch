@@ -3622,10 +3622,6 @@
 		(uuid "dc19ecb3-0fb4-45fe-9d99-d9107a7c168b")
 	)
 	(no_connect
-		(at 224.79 113.03)
-		(uuid "e100d6f8-a53b-4382-b78a-689f1106224a")
-	)
-	(no_connect
 		(at 224.79 92.71)
 		(uuid "e2755ceb-e796-4901-90ba-81aadbce0799")
 	)
@@ -3640,6 +3636,10 @@
 	(no_connect
 		(at 224.79 87.63)
 		(uuid "f9715838-edd8-4f46-ad7e-f911a562155f")
+	)
+	(no_connect
+		(at 224.79 146.05)
+		(uuid "fb6d5fd4-dab3-41aa-b55d-c25539f8452f")
 	)
 	(wire
 		(pts
@@ -4443,6 +4443,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 107.95) (xy 34.29 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "665dea8b-0669-4fa7-9838-96349fa93ee4")
+	)
+	(wire
+		(pts
 			(xy 161.29 113.03) (xy 147.32 113.03)
 		)
 		(stroke
@@ -4710,6 +4720,16 @@
 			(type default)
 		)
 		(uuid "84c52138-f915-4646-af32-fa92e0d82726")
+	)
+	(wire
+		(pts
+			(xy 299.72 146.05) (xy 312.42 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85929295-ff14-4a6a-a47b-0368c4ed9d72")
 	)
 	(wire
 		(pts
@@ -5453,6 +5473,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 113.03) (xy 241.3 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de91f2ce-44a2-49f6-8053-c994dc085bea")
+	)
+	(wire
+		(pts
 			(xy 50.8 133.35) (xy 57.15 133.35)
 		)
 		(stroke
@@ -5580,16 +5610,6 @@
 			(type default)
 		)
 		(uuid "ec7ba8fa-9a53-4691-b6dc-b5c9881eb86c")
-	)
-	(wire
-		(pts
-			(xy 299.72 146.05) (xy 312.42 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ecbbb599-f9ae-49a1-9f04-b7633e1a8e82")
 	)
 	(wire
 		(pts
@@ -6063,7 +6083,7 @@
 		)
 		(uuid "90773535-3735-45b5-bb1c-bab7d5a739a5")
 	)
-	(label "INTB"
+	(label "NEOPIXEL"
 		(at 299.72 146.05 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6139,6 +6159,17 @@
 			(justify left bottom)
 		)
 		(uuid "d70bd37e-6452-4f17-b587-62ccbd3c5007")
+	)
+	(label "NEOPIXEL"
+		(at 231.14 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7804c1d-f8ad-46a3-aa00-109ccb48898b")
 	)
 	(label "XOUT"
 		(at 147.32 113.03 0)
@@ -6559,6 +6590,72 @@
 			(project "LEDMatrix"
 				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 34.29 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12b2db5d-1c14-45e0-b2ef-7bd19a9fba78")
+		(property "Reference" "#PWR050"
+			(at 34.29 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 34.29 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 34.29 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0eebba9c-cb5a-4a66-ac1e-497664dc506b")
+		)
+		(instances
+			(project "LEDMatrix"
+				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -8015,9 +8112,9 @@
 		(at 50.8 130.81 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "489bb6c4-c1aa-4f03-a4e0-de488cf682ae")
 		(property "Reference" "TP1"
 			(at 44.45 130.81 90)
@@ -8398,7 +8495,7 @@
 				)
 			)
 		)
-		(property "Value" "15pF"
+		(property "Value" "22pF"
 			(at 52.07 170.18 90)
 			(effects
 				(font
@@ -8500,7 +8597,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "624fcc0f-a441-4f04-bbea-2f50d796e29d")
 		(property "Reference" "TP5"
 			(at 34.29 95.25 90)
@@ -8511,7 +8608,7 @@
 			)
 		)
 		(property "Value" "BOOTSEL"
-			(at 34.29 102.87 90)
+			(at 32.258 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9233,6 +9330,97 @@
 			(project "LEDMatrix"
 				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 34.29 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "7bc0e8b0-c3d2-47e0-9fb8-55aaa5c9c132")
+		(property "Reference" "TP6"
+			(at 34.29 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 32.258 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 39.37 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 34.29 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 34.29 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 34.29 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Alt" ""
+			(at 34.29 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be998072-40ba-4fd5-8b12-1babc150314d")
+		)
+		(instances
+			(project "LEDMatrix"
+				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -10083,9 +10271,9 @@
 		(at 50.8 133.35 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "926fc328-39b1-4182-b2b0-edae4a9897f2")
 		(property "Reference" "TP2"
 			(at 44.45 133.35 90)
@@ -10620,7 +10808,7 @@
 				)
 			)
 		)
-		(property "Value" "15pF"
+		(property "Value" "22pF"
 			(at 52.07 187.96 90)
 			(effects
 				(font
@@ -11206,9 +11394,9 @@
 		(at 50.8 138.43 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "b31ec11b-d952-4361-bcf7-542284cdc258")
 		(property "Reference" "TP4"
 			(at 44.45 138.43 90)
@@ -12273,7 +12461,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dff71435-a067-46e7-baa7-73204ffadfeb")
 		(property "Reference" "J1"
@@ -12595,9 +12783,9 @@
 		(at 50.8 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "e67082da-4263-4b6c-a19c-b8a2facba494")
 		(property "Reference" "TP3"
 			(at 44.45 135.89 90)
@@ -13210,16 +13398,6 @@
 			)
 			(uuid "d39c77ac-5a13-4488-ba9c-eac6cc2b8b19")
 		)
-		(pin "INTB" output
-			(at 312.42 146.05 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "40ff36fc-95d6-49a2-bb12-2ebc3e97e00d")
-		)
 		(pin "SDB" input
 			(at 312.42 148.59 180)
 			(effects
@@ -13229,6 +13407,16 @@
 				(justify left)
 			)
 			(uuid "b904b6c0-75ae-4c19-84e9-b4e49648aa65")
+		)
+		(pin "NEOPIXEL" input
+			(at 312.42 146.05 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "85f6c870-1aed-4e35-af0f-f027303ab0a8")
 		)
 		(instances
 			(project "LEDMatrix"

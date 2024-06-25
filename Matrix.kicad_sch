@@ -13,6 +13,396 @@
 		(comment 3 "https://frame.work")
 	)
 	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LED:Inolux_IN-PI554FCH"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "Inolux_IN-PI554FCH"
+				(at 1.27 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_Inolux_IN-PI554FCH_PLCC4_5.0x5.0mm_P3.2mm"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.inolux-corp.com/datasheet/SMDLED/Addressable%20LED/IN-PI554FCH.pdf"
+				(at 2.54 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "5050 RGB LED 4-Pin with integrated IC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RGB LED NeoPixel addressable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*IN-PI554FCH*PLCC*5.0x5.0mm*P3.2mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Inolux_IN-PI554FCH_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "Inolux_IN-PI554FCH_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "Inolux_IN-PI554FCH_1_1"
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "LEDMatrix:VDMx10A1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -439,6 +829,222 @@
 				)
 			)
 		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 241.3 138.43)
@@ -493,6 +1099,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e47c57f8-4253-48bd-a84f-6f1bdff59926")
+	)
+	(no_connect
+		(at 374.65 82.55)
+		(uuid "e731de1f-f73e-4ffd-93e7-df9eeaee63c5")
 	)
 	(bus_entry
 		(at 82.55 81.28)
@@ -709,6 +1319,16 @@
 	)
 	(wire
 		(pts
+			(xy 347.98 90.17) (xy 347.98 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ff81c64-3502-428b-b8c2-656d05c9cf92")
+	)
+	(wire
+		(pts
 			(xy 162.56 123.19) (xy 176.53 123.19)
 		)
 		(stroke
@@ -889,6 +1509,16 @@
 	)
 	(wire
 		(pts
+			(xy 290.83 72.39) (xy 290.83 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ec9f697-0146-4a97-8a6b-712da1f25ca2")
+	)
+	(wire
+		(pts
 			(xy 210.82 49.53) (xy 224.79 49.53)
 		)
 		(stroke
@@ -896,6 +1526,16 @@
 			(type default)
 		)
 		(uuid "30aa035b-0b4c-4d9e-93ab-eccc693b119c")
+	)
+	(wire
+		(pts
+			(xy 398.78 72.39) (xy 398.78 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3117e23e-fdae-4ccd-9f2f-2186089836a9")
 	)
 	(wire
 		(pts
@@ -1149,6 +1789,16 @@
 	)
 	(wire
 		(pts
+			(xy 411.48 86.36) (xy 411.48 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5acf03dc-9ba3-4b09-b2bb-f3c207775020")
+	)
+	(wire
+		(pts
 			(xy 162.56 87.63) (xy 176.53 87.63)
 		)
 		(stroke
@@ -1176,6 +1826,16 @@
 			(type default)
 		)
 		(uuid "5e2d9e9b-dc63-49bf-9911-a5f81eff4be8")
+	)
+	(wire
+		(pts
+			(xy 411.48 72.39) (xy 411.48 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ed656ea-b181-44d9-9956-0b39a40f0307")
 	)
 	(wire
 		(pts
@@ -1209,6 +1869,16 @@
 	)
 	(wire
 		(pts
+			(xy 398.78 86.36) (xy 398.78 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "625e5663-fb46-4f95-a4e9-d3c45a556601")
+	)
+	(wire
+		(pts
 			(xy 162.56 85.09) (xy 176.53 85.09)
 		)
 		(stroke
@@ -1219,6 +1889,16 @@
 	)
 	(wire
 		(pts
+			(xy 328.93 72.39) (xy 328.93 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "641d2256-8bb0-407c-a83d-cf11d54f1b5e")
+	)
+	(wire
+		(pts
 			(xy 162.56 100.33) (xy 176.53 100.33)
 		)
 		(stroke
@@ -1226,6 +1906,16 @@
 			(type default)
 		)
 		(uuid "6518ce6b-1913-4c6f-8bd7-d4eac6d1513c")
+	)
+	(wire
+		(pts
+			(xy 367.03 90.17) (xy 367.03 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6635e48a-80ab-4c83-9918-7f16ee0f3cdd")
 	)
 	(wire
 		(pts
@@ -1259,6 +1949,16 @@
 	)
 	(wire
 		(pts
+			(xy 367.03 72.39) (xy 367.03 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a707faf-a6ea-45fc-9226-e795665f0d43")
+	)
+	(wire
+		(pts
 			(xy 115.57 100.33) (xy 129.54 100.33)
 		)
 		(stroke
@@ -1289,6 +1989,16 @@
 	)
 	(wire
 		(pts
+			(xy 309.88 90.17) (xy 309.88 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f0146bd-2f44-4078-bfcb-cc863b58f1f1")
+	)
+	(wire
+		(pts
 			(xy 115.57 49.53) (xy 129.54 49.53)
 		)
 		(stroke
@@ -1299,6 +2009,16 @@
 	)
 	(wire
 		(pts
+			(xy 336.55 82.55) (xy 340.36 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "723288cb-51f6-4544-be8c-9167aaf57b07")
+	)
+	(wire
+		(pts
 			(xy 82.55 123.19) (xy 88.9 123.19)
 		)
 		(stroke
@@ -1306,6 +2026,16 @@
 			(type default)
 		)
 		(uuid "72e0cd8b-c230-4af2-9215-e62fe9e68ded")
+	)
+	(wire
+		(pts
+			(xy 386.08 72.39) (xy 386.08 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73876f2b-80f7-426b-85c9-38bc370f76f6")
 	)
 	(wire
 		(pts
@@ -1406,6 +2136,26 @@
 			(type default)
 		)
 		(uuid "85f03aac-59df-4877-b8de-f47271203057")
+	)
+	(wire
+		(pts
+			(xy 355.6 82.55) (xy 359.41 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "897611e9-bb7e-4b46-81fb-f53c29e01760")
+	)
+	(wire
+		(pts
+			(xy 317.5 82.55) (xy 321.31 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96a74540-16c9-4c02-8896-694e1fefc51e")
 	)
 	(wire
 		(pts
@@ -1717,6 +2467,16 @@
 		)
 		(uuid "ceea2608-9e50-4995-9a09-01136d880091")
 	)
+	(wire
+		(pts
+			(xy 290.83 90.17) (xy 290.83 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf1c6b9f-1db5-4247-ba08-a5ec0d626d49")
+	)
 	(bus
 		(pts
 			(xy 137.16 196.85) (xy 149.86 196.85)
@@ -1726,6 +2486,16 @@
 			(type default)
 		)
 		(uuid "cf813b50-6c05-425e-ac0e-9cb81b0bb4a8")
+	)
+	(wire
+		(pts
+			(xy 328.93 90.17) (xy 328.93 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d270134f-44f2-4960-afb7-b46da8737549")
 	)
 	(wire
 		(pts
@@ -1949,6 +2719,16 @@
 	)
 	(wire
 		(pts
+			(xy 298.45 82.55) (xy 302.26 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eed41237-90e0-4090-bb65-f245bad19c36")
+	)
+	(wire
+		(pts
 			(xy 121.92 175.26) (xy 121.92 194.31)
 		)
 		(stroke
@@ -1956,6 +2736,16 @@
 			(type default)
 		)
 		(uuid "ef03fca8-b63a-4453-80b5-6dac99d6040f")
+	)
+	(wire
+		(pts
+			(xy 347.98 72.39) (xy 347.98 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef85f84c-c368-4d43-a535-2cdfc62cd592")
 	)
 	(bus
 		(pts
@@ -1966,6 +2756,16 @@
 			(type default)
 		)
 		(uuid "f0401653-d42a-4796-969f-5102af1ffbfd")
+	)
+	(wire
+		(pts
+			(xy 309.88 72.39) (xy 309.88 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0a8ebc2-aca0-4918-996b-2e8a7dd9b3b7")
 	)
 	(wire
 		(pts
@@ -1986,6 +2786,16 @@
 			(type default)
 		)
 		(uuid "f20a29b9-afaa-42d3-a9ff-4e544a19c94d")
+	)
+	(wire
+		(pts
+			(xy 386.08 86.36) (xy 386.08 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2d2ad41-3d9a-4da1-90f1-2566d4def3d7")
 	)
 	(wire
 		(pts
@@ -2056,6 +2866,16 @@
 			(type default)
 		)
 		(uuid "f9a50083-f5b3-4ced-bcfe-2ca9ff34db45")
+	)
+	(wire
+		(pts
+			(xy 265.43 82.55) (xy 283.21 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe2a3157-58f7-4a9d-998a-3eb4528964fd")
 	)
 	(bus
 		(pts
@@ -3169,6 +3989,241 @@
 		)
 		(uuid "69c0a29d-b18e-41f4-a2d0-5cfd7dc6d17c")
 	)
+	(hierarchical_label "NEOPIXEL"
+		(shape input)
+		(at 265.43 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e64ee009-f969-466e-b902-32a37c9bd4c8")
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 309.88 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0796a2b5-65c8-41d4-898b-22b53cac7d77")
+		(property "Reference" "#PWR07"
+			(at 309.88 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 309.88 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 309.88 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 309.88 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 309.88 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3d1f20a-b4c5-4ea9-aa45-a2cf63d97ddf")
+		)
+		(instances
+			(project "LEDMatrix"
+				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:Inolux_IN-PI554FCH")
+		(at 367.03 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b84f2c4-317b-415f-8c38-09b3528a7f34")
+		(property "Reference" "D10"
+			(at 362.966 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-4020"
+			(at 375.412 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LEDMatrix:WS2812B-4020"
+			(at 368.3 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2012110135_Worldsemi-WS2812B-4020_C965557.pdf"
+			(at 369.57 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "5050 RGB LED 4-Pin with integrated IC"
+			(at 367.03 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965557"
+			(at 367.03 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "  1528-4691-ND"
+			(at 367.03 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "13d3912a-3756-4957-ac28-6784891b4c32")
+		)
+		(pin "1"
+			(uuid "f1d82999-d304-4d9e-8909-6d849fa88ce8")
+		)
+		(pin "4"
+			(uuid "c24f66dc-29f6-4298-ac9b-89b1e48e2ea2")
+		)
+		(pin "3"
+			(uuid "5d93d083-f2f1-426f-bf5c-2d176ee74c34")
+		)
+		(instances
+			(project "LEDMatrix"
+				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 309.88 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "100dda0b-35bd-485d-a30c-4df2a40031dc")
+		(property "Reference" "#PWR030"
+			(at 309.88 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 306.07 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 309.88 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 309.88 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 309.88 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c25d4ea8-dab2-4843-b637-cb91f232e0ec")
+		)
+		(instances
+			(project "LEDMatrix"
+				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "LEDMatrix:VDMx10A1")
 		(at 184.15 57.15 0)
@@ -3281,6 +4336,446 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 347.98 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1890b691-2c11-450d-bc8b-ab57697ce398")
+		(property "Reference" "#PWR041"
+			(at 347.98 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 344.17 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 347.98 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 347.98 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 347.98 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6810ca3f-8d00-4943-b9a9-ba5edbcf5ef6")
+		)
+		(instances
+			(project "LEDMatrix"
+				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 328.93 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1df99e0a-3b32-4969-9dfd-16daa93d9881")
+		(property "Reference" "#PWR039"
+			(at 328.93 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 325.12 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 328.93 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 328.93 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 328.93 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61ffb599-0fe3-4de3-bba4-f049b9ce9811")
+		)
+		(instances
+			(project "LEDMatrix"
+				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 290.83 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e71e96f-7ba4-4b53-893a-4e32e46960c2")
+		(property "Reference" "#PWR06"
+			(at 290.83 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 287.02 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 290.83 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 290.83 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 290.83 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19518ee3-9d35-452c-a366-976604bded34")
+		)
+		(instances
+			(project "LEDMatrix"
+				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:Inolux_IN-PI554FCH")
+		(at 309.88 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "254ee8a0-cc20-4fdb-8f98-80bef940f22a")
+		(property "Reference" "D7"
+			(at 305.816 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-4020"
+			(at 318.262 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LEDMatrix:WS2812B-4020"
+			(at 311.15 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2012110135_Worldsemi-WS2812B-4020_C965557.pdf"
+			(at 312.42 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "5050 RGB LED 4-Pin with integrated IC"
+			(at 309.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965557"
+			(at 309.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "  1528-4691-ND"
+			(at 309.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fbf69865-4ead-4ccf-9fc6-ffc40ec0eb3c")
+		)
+		(pin "1"
+			(uuid "bac2b60a-163f-4003-97c5-38009d7655d9")
+		)
+		(pin "4"
+			(uuid "3965243b-263a-49b1-bff7-fd613b802d8f")
+		)
+		(pin "3"
+			(uuid "66198171-717c-404d-8bf6-9ed3326d654b")
+		)
+		(instances
+			(project "LEDMatrix"
+				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 398.78 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "313952b9-99e2-4798-8778-a31fc744338b")
+		(property "Reference" "C21"
+			(at 401.701 81.3816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 401.701 83.693 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 399.7452 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 398.78 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 398.78 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "1276-1001-1-ND"
+			(at 398.78 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 398.78 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "084c2131-2714-48d1-be8d-4bb298f6d4d2")
+		)
+		(pin "2"
+			(uuid "9f64eea6-6cf0-4f26-90e6-d661b298f992")
+		)
+		(instances
+			(project "LEDMatrix"
+				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 411.48 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "322bf0c3-0bfc-4f90-b58b-cffd2239ca7c")
+		(property "Reference" "#PWR048"
+			(at 411.48 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 411.48 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 411.48 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 411.48 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 411.48 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85a24fc0-d1d0-4f83-be76-3c920b688bf0")
+		)
+		(instances
+			(project "LEDMatrix"
+				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LEDMatrix:VDMx10A1")
 		(at 137.16 92.71 0)
 		(unit 1)
@@ -3386,6 +4881,99 @@
 			(project "LEDMatrix"
 				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
 					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:Inolux_IN-PI554FCH")
+		(at 347.98 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "48d554c6-6285-41f1-ad5a-f4e694d29f7e")
+		(property "Reference" "D9"
+			(at 343.916 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-4020"
+			(at 356.362 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LEDMatrix:WS2812B-4020"
+			(at 349.25 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2012110135_Worldsemi-WS2812B-4020_C965557.pdf"
+			(at 350.52 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "5050 RGB LED 4-Pin with integrated IC"
+			(at 347.98 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965557"
+			(at 347.98 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "  1528-4691-ND"
+			(at 347.98 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "98686fd4-bc96-4a46-b431-094d64c9d8b7")
+		)
+		(pin "1"
+			(uuid "dc3f1cc6-b16c-446b-9efe-f57e61fa7c8e")
+		)
+		(pin "4"
+			(uuid "229b5d8b-8c52-49cc-8262-8cdec207ac6f")
+		)
+		(pin "3"
+			(uuid "d830a805-5cbd-4a1d-a088-8fa312548844")
+		)
+		(instances
+			(project "LEDMatrix"
+				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -3614,6 +5202,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 411.48 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58748644-9401-45c8-a557-bf810226db3e")
+		(property "Reference" "#PWR049"
+			(at 411.48 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 407.67 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 411.48 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 411.48 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 411.48 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "217c0355-c044-44b7-9bd9-e14cfbde1880")
+		)
+		(instances
+			(project "LEDMatrix"
+				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LEDMatrix:VDMx10A1")
 		(at 137.16 57.15 0)
 		(unit 1)
@@ -3719,6 +5372,164 @@
 			(project ""
 				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:Inolux_IN-PI554FCH")
+		(at 328.93 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60df3938-3337-4630-b7ad-87ffa871ecf7")
+		(property "Reference" "D8"
+			(at 324.866 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-4020"
+			(at 337.312 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LEDMatrix:WS2812B-4020"
+			(at 330.2 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2012110135_Worldsemi-WS2812B-4020_C965557.pdf"
+			(at 331.47 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "5050 RGB LED 4-Pin with integrated IC"
+			(at 328.93 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965557"
+			(at 328.93 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "  1528-4691-ND"
+			(at 328.93 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0c450170-e610-4976-b517-7e7b9c0adcf3")
+		)
+		(pin "1"
+			(uuid "bd46da87-9f7a-4de3-bb1e-b0a7d6304b4e")
+		)
+		(pin "4"
+			(uuid "ddb1bc31-1e16-4a52-a039-c5afa276b435")
+		)
+		(pin "3"
+			(uuid "444142e1-9def-4cea-ba1e-5529f5894967")
+		)
+		(instances
+			(project "LEDMatrix"
+				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 347.98 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65e2bcc2-32b3-4419-8bea-99a720a1b75d")
+		(property "Reference" "#PWR040"
+			(at 347.98 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 347.98 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 347.98 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 347.98 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 347.98 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69411681-11f1-4f02-b090-71b38802e1b4")
+		)
+		(instances
+			(project "LEDMatrix"
+				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -3836,6 +5647,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 367.03 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85acbd13-8a9c-41e0-ace3-d0f7d7438a5c")
+		(property "Reference" "#PWR042"
+			(at 367.03 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 367.03 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 367.03 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 367.03 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 367.03 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "618233df-caf8-4477-998f-c0a5e99a3b71")
+		)
+		(instances
+			(project "LEDMatrix"
+				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LEDMatrix:VDMx10A1")
 		(at 137.16 128.27 0)
 		(unit 1)
@@ -3941,6 +5817,424 @@
 			(project "LEDMatrix"
 				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
 					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 398.78 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97be3519-9944-445d-91d8-642d294770fa")
+		(property "Reference" "#PWR047"
+			(at 398.78 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 394.97 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 398.78 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 398.78 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 398.78 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56c9308f-fc48-4d95-9872-6d637633c1fd")
+		)
+		(instances
+			(project "LEDMatrix"
+				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 367.03 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9fef3a00-7ea4-4117-bcd9-a050976e2445")
+		(property "Reference" "#PWR043"
+			(at 367.03 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 363.22 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 367.03 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 367.03 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 367.03 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44352b7c-0677-4daf-a209-bffec049a65e")
+		)
+		(instances
+			(project "LEDMatrix"
+				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 386.08 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3a2c658-e741-4b5a-b4c4-d93c99153b42")
+		(property "Reference" "#PWR044"
+			(at 386.08 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 386.08 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 386.08 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 386.08 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 386.08 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f126cc70-a349-47f5-a3a6-71e6fd794ac4")
+		)
+		(instances
+			(project "LEDMatrix"
+				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 398.78 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7c9a38c-b3ab-4c79-a6b4-3863331b20a1")
+		(property "Reference" "#PWR046"
+			(at 398.78 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 398.78 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 398.78 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 398.78 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 398.78 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0cd505a-40a1-445c-8e9d-36b4896ab5e5")
+		)
+		(instances
+			(project "LEDMatrix"
+				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 328.93 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c89622f9-3774-4f53-b54e-bbeee6381d7e")
+		(property "Reference" "#PWR038"
+			(at 328.93 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 328.93 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 328.93 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 328.93 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 328.93 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb547d9c-f839-4d88-ae0e-5dfab07971ed")
+		)
+		(instances
+			(project "LEDMatrix"
+				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:Inolux_IN-PI554FCH")
+		(at 290.83 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d045bd15-d698-41db-93cb-cab68cbe3450")
+		(property "Reference" "D6"
+			(at 286.766 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-4020"
+			(at 299.212 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LEDMatrix:WS2812B-4020"
+			(at 292.1 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2012110135_Worldsemi-WS2812B-4020_C965557.pdf"
+			(at 293.37 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "5050 RGB LED 4-Pin with integrated IC"
+			(at 290.83 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965557"
+			(at 290.83 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "  1528-4691-ND"
+			(at 290.83 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "375b120b-f30f-4ceb-966c-ece049b07ffc")
+		)
+		(pin "1"
+			(uuid "ba7737ad-2d52-4cfa-86c0-cf224ae2bc24")
+		)
+		(pin "4"
+			(uuid "56efe555-024a-4bdd-a7b0-1d60e8dff537")
+		)
+		(pin "3"
+			(uuid "8307368a-663a-4334-ba04-bd8307079a56")
+		)
+		(instances
+			(project ""
+				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -4163,6 +6457,310 @@
 			(project "LEDMatrix"
 				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
 					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 386.08 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ed731017-6daa-4188-8a37-ad093da2a796")
+		(property "Reference" "#PWR045"
+			(at 386.08 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 382.27 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 386.08 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 386.08 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 386.08 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46f14cc5-289b-495d-8e15-4839e7253691")
+		)
+		(instances
+			(project "LEDMatrix"
+				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 411.48 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f2cb2f48-1e53-4098-81eb-ba4acb659b83")
+		(property "Reference" "C22"
+			(at 414.401 81.3816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 414.401 83.693 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 412.4452 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 411.48 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 411.48 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "1276-1001-1-ND"
+			(at 411.48 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 411.48 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9f9d999-944b-4cc3-8a95-4a55888965c0")
+		)
+		(pin "2"
+			(uuid "b023488f-c0e6-4432-beac-554eaf732ab0")
+		)
+		(instances
+			(project "LEDMatrix"
+				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 290.83 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f31eb173-05f0-4401-a185-91c6975bb84f")
+		(property "Reference" "#PWR05"
+			(at 290.83 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 290.83 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 290.83 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 290.83 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 290.83 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c5a29d6-0f48-42b6-834c-d5d9b1f40d5f")
+		)
+		(instances
+			(project "LEDMatrix"
+				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 386.08 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f592414a-dcdf-4dd0-b78d-a14607a94e2e")
+		(property "Reference" "C20"
+			(at 389.001 81.3816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 389.001 83.693 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 387.0452 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 386.08 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 386.08 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "1276-1001-1-ND"
+			(at 386.08 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 386.08 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b4a6460-6d62-4aba-8459-56725255b4b1")
+		)
+		(pin "2"
+			(uuid "e343e992-2c7a-42bd-a019-41641142d1c4")
+		)
+		(instances
+			(project "LEDMatrix"
+				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
+					(reference "C20")
 					(unit 1)
 				)
 			)
