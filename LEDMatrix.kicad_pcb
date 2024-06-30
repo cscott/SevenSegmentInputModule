@@ -10403,7 +10403,7 @@
 			(at 0 4.7 0)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "2248bf1a-556f-4480-9458-643a3750b648")
+			(uuid "103400a9-9be3-4078-8ecf-a453596097f6")
 			(effects
 				(font
 					(size 1 1)
@@ -10415,7 +10415,7 @@
 		(property "Value" "24929"
 			(at 0 -4.7 0)
 			(layer "B.Fab")
-			(uuid "f642ac81-85ff-441c-b975-d1adfe196b65")
+			(uuid "fd42f47f-b640-40fa-a9ea-459979797282")
 			(effects
 				(font
 					(size 1 1)
@@ -10428,7 +10428,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d55abd6a-b73c-4daf-90d5-910c410a9dc7")
+			(uuid "f3047518-96db-4302-bb6e-f5690945f3f1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10440,7 +10440,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "841dd8aa-3556-4f25-9b73-ab3596871d61")
+			(uuid "dab8a857-6358-446a-97b5-df24d132195d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10452,7 +10452,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "164de401-2922-4f7f-9e37-8fda1ef09119")
+			(uuid "cb0ab33d-0ea9-4544-b9d4-0c399879dcb2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10562,7 +10562,7 @@
 		(path "/9a64dcd1-bf7e-48f8-b5ac-9551ac3c1c31")
 		(sheetname "Root")
 		(sheetfile "LEDMatrix.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 3.1 0)
@@ -10572,7 +10572,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "b3ecfe5d-4c7c-46f8-ad6a-069947a34ee5")
+			(uuid "e2439b67-8518-46f1-9ab1-fac18997201a")
 		)
 		(fp_circle
 			(center 0 0)
@@ -10583,12 +10583,12 @@
 			)
 			(fill none)
 			(layer "B.CrtYd")
-			(uuid "7324e725-6038-4966-859a-2fc1e92114e4")
+			(uuid "ad2ca736-f753-4208-acfa-6e3071a956ee")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "B.Fab")
-			(uuid "7d517526-7dbc-4a95-8fbd-ae849ff90cde")
+			(uuid "a386614b-3b58-4704-9c15-9fffd3ce9982")
 			(effects
 				(font
 					(size 1 1)
@@ -10603,7 +10603,18 @@
 			(drill 3.7)
 			(layers "*.Cu" "*.Mask" "B.Paste")
 			(remove_unused_layers no)
-			(uuid "4b865952-3520-4a6c-813d-24857a1efd72")
+			(uuid "c838dbaa-31ee-40e7-a90b-69caf6cc6f38")
+		)
+		(model "${KIPRJMOD}/InputModule.pretty/24929.STEP"
+			(offset
+				(xyz 0 0 -1.6)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
 		)
 	)
 	(footprint "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm"
@@ -15036,6 +15047,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/LEDMatrix.pretty/USON-8_L2-W3-H0.6X0.5P.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 -90)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "B.Cu")
@@ -18998,7 +19020,7 @@
 			(at 0 4.7 0)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "fafc579a-38a3-48c0-aa85-979917fc15b6")
+			(uuid "c0d1dc8b-a836-42bb-a834-51c132e0f795")
 			(effects
 				(font
 					(size 1 1)
@@ -19010,7 +19032,7 @@
 		(property "Value" "24929"
 			(at 0 -4.7 0)
 			(layer "B.Fab")
-			(uuid "25ef0b49-8f73-46aa-a9ce-9a4e3c098d33")
+			(uuid "867d97e4-d295-44a7-9139-5ae5dee9b2f5")
 			(effects
 				(font
 					(size 1 1)
@@ -19023,7 +19045,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "31e3cb03-d064-4cc1-b3a6-384aba17e3a0")
+			(uuid "f83d516f-bd41-4c5e-8871-41454b891d73")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19035,7 +19057,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "39df3b0a-e40c-483d-a49f-e28a5908771e")
+			(uuid "8ef9bd05-7c43-4e9f-bb3e-7ea605c2a45f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19047,7 +19069,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6af916ca-b34b-4c30-8302-17a41c9dd8df")
+			(uuid "8ce5fb12-b10b-4612-94f2-e2066995e3eb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19157,7 +19179,7 @@
 		(path "/1753d77d-fb25-4322-8294-58915383ae87")
 		(sheetname "Root")
 		(sheetfile "LEDMatrix.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 3.1 0)
@@ -19167,7 +19189,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "ffb4057b-560a-41a2-8cd4-4972ba4ca998")
+			(uuid "59293b04-fb63-419f-8b56-1dad31cb13e9")
 		)
 		(fp_circle
 			(center 0 0)
@@ -19178,12 +19200,12 @@
 			)
 			(fill none)
 			(layer "B.CrtYd")
-			(uuid "56f8deb9-4322-4c6f-8338-a18ff79823a4")
+			(uuid "3bf91ae4-c5b3-4aec-91fe-10e9c94891f6")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "B.Fab")
-			(uuid "b2064475-9545-4ed7-b39b-2cc1342569b7")
+			(uuid "9da5a4fe-4f44-45df-b348-745ded9f84e3")
 			(effects
 				(font
 					(size 1 1)
@@ -19198,7 +19220,18 @@
 			(drill 3.7)
 			(layers "*.Cu" "*.Mask" "B.Paste")
 			(remove_unused_layers no)
-			(uuid "c8c20fb8-9dac-4ab3-9492-ef19a1e8e00c")
+			(uuid "b991c1ec-c956-4d05-8791-09c7a194e008")
+		)
+		(model "${KIPRJMOD}/InputModule.pretty/24929.STEP"
+			(offset
+				(xyz 0 0 -1.6)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
 		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"

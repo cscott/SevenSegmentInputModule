@@ -6789,7 +6789,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "1753d77d-fb25-4322-8294-58915383ae87")
 		(property "Reference" "H2"
 			(at 30.48 233.68 0)
@@ -10977,7 +10977,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "9a64dcd1-bf7e-48f8-b5ac-9551ac3c1c31")
 		(property "Reference" "H1"
 			(at 30.48 228.6 0)
