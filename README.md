@@ -9,7 +9,7 @@ More discussion of this project can be found in the [Framework
 forums](https://community.frame.work/t/showcase-7-segment-display-input-module/53807).
 
 ## License
-Input Modules © 2023 by Framework Computer Inc is licensed under CC BY 4.0. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/
+Input Modules © 2023 by Framework Computer Inc is licensed under CC BY 4.0.
 
 This seven segment display input module is © 2024 by
 C. Scott Ananian and is also licensed under CC BY 4.0.
