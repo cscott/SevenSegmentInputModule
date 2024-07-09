@@ -1,0 +1,6 @@
+v1 notes:
+* need to order 100nF capacitors for front side
+* should have ordered front side stencil from JLCPCB!
+* should have used "real" switch footprint for boot/reset so that I could
+  mount a switch for initial debugging.
+* adjust LED brightness to stay within current limits?

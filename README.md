@@ -5,6 +5,9 @@ This module is based on the "34x9 LED Matrix" example
 from https://github.com/FrameworkComputer/InputModules
 and is powered by a Raspberry Pi RP2040 microcontroller.
 
+A short video demo of first light from the prototype is at
+https://youtu.be/MXg15aWYOqI
+
 More discussion of this project can be found in the [Framework
 forums](https://community.frame.work/t/showcase-7-segment-display-input-module/53807).
 
