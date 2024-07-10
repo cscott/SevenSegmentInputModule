@@ -3246,7 +3246,7 @@
 			(uuid "6675bfa1-e27f-4047-b5ee-a95b17a0f9ce")
 		)
 		(instances
-			(project "LEDMatrix"
+			(project "SevenSegment"
 				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22"
 					(page "3")
 				)

@@ -1,5 +1,5 @@
 (fp_lib_table
   (version 7)
   (lib (name "InputModule")(type "KiCad")(uri "${KIPRJMOD}/InputModule.pretty")(options "")(descr ""))
-  (lib (name "LEDMatrix")(type "KiCad")(uri "${KIPRJMOD}/LEDMatrix.pretty")(options "")(descr ""))
+  (lib (name "LEDMatrix")(type "KiCad")(uri "${KIPRJMOD}/SevenSegment.pretty")(options "")(descr ""))
 )

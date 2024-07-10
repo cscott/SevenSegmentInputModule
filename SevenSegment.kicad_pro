@@ -456,7 +456,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "LEDMatrix.kicad_pro",
+    "filename": "SevenSegment.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -494,9 +494,9 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "LEDMatrix.step",
+      "step": "SevenSegment.step",
       "svg": "",
-      "vrml": "LEDMatrix.wrl"
+      "vrml": "SevenSegment.wrl"
     },
     "page_layout_descr_file": ""
   },

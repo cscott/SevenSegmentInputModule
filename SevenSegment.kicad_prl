@@ -74,7 +74,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "LEDMatrix.kicad_prl",
+    "filename": "SevenSegment.kicad_prl",
     "version": 3
   },
   "project": {
