@@ -4,3 +4,8 @@ v1 notes:
 * should have used "real" switch footprint for boot/reset so that I could
   mount a switch for initial debugging.
 * adjust LED brightness to stay within current limits?
+
+* Should add a power transistor to turn off NEOPIXELs during sleep
+  (see qtpy schematic?)
+* Add a DIP switch (n/p) to Gpio25 for compat w/ LED Matrix
+* Add pull-down to INTB (GPIO28), again for compat
