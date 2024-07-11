@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "LEDMatrix")(type "KiCad")(uri "${KIPRJMOD}/LEDMatrix.kicad_sym")(options "")(descr ""))
   (lib (name "InputModule")(type "KiCad")(uri "${KIPRJMOD}/InputModule.kicad_sym")(options "")(descr ""))
+  (lib (name "LCSC")(type "KiCad")(uri "${KIPRJMOD}/LCSC.kicad_sym")(options "")(descr ""))
 )

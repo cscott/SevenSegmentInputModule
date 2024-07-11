@@ -1,11 +1,25 @@
 v1 notes:
 * need to order 100nF capacitors for front side
 * should have ordered front side stencil from JLCPCB!
-* should have used "real" switch footprint for boot/reset so that I could
+x should have used "real" switch footprint for boot/reset so that I could
   mount a switch for initial debugging.
 * adjust LED brightness to stay within current limits?
 
-* Should add a power transistor to turn off NEOPIXELs during sleep
+x Should add a power transistor to turn off NEOPIXELs during sleep
   (see qtpy schematic?)
-* Add a DIP switch (n/p) to Gpio25 for compat w/ LED Matrix
-* Add pull-down to INTB (GPIO28), again for compat
+  x place capacitors for U14
+x Add a DIP switch (n/p) to Gpio25 for compat w/ LED Matrix
+NO ROOM Add pull-down to INTB (GPIO28), again for compat
+x Remove unnecessary RESET switch footprint
+
+* Validate max power consumption on actual hardware (once we have
+  neopixels) and adjust current limiting resistor values if needed
+  to honor our max 100mA limit.  (Ideally a hardware limit, so bad
+  software can't force us over our limit into shutdown.  But if the
+  max neopixel draw is too high we might need/use a software limit
+  for neopixel brightness.)
+* Check out visual appearance of hotspots etc from neopixels in
+  actual practice, and adjust bezel thicknesses for better printability.
+  * maybe squeeze LED digits closer together to free up side space
+  * maybe we don't actually need the holes underneath the LED displays
+  * maybe nudge neopixels in further from the edge

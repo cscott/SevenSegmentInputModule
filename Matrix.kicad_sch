@@ -829,7 +829,7 @@
 				)
 			)
 		)
-		(symbol "power:+5V"
+		(symbol "power:+5VP"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -846,7 +846,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+5V"
+			(property "Value" "+5VP"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -872,7 +872,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(property "Description" "Power symbol creates a global label with name \"+5VP\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -890,7 +890,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+5V_0_1"
+			(symbol "+5VP_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -928,7 +928,7 @@
 					)
 				)
 			)
-			(symbol "+5V_1_1"
+			(symbol "+5VP_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -4002,16 +4002,17 @@
 		(uuid "e64ee009-f969-466e-b902-32a37c9bd4c8")
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 309.88 72.39 0)
+		(lib_id "power:+5VP")
+		(at 398.78 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0796a2b5-65c8-41d4-898b-22b53cac7d77")
-		(property "Reference" "#PWR07"
-			(at 309.88 76.2 0)
+		(fields_autoplaced yes)
+		(uuid "01defb42-7da3-4099-b5dc-ba57c9ac456e")
+		(property "Reference" "#PWR046"
+			(at 398.78 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4019,8 +4020,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 309.88 68.58 0)
+		(property "Value" "+5VP"
+			(at 398.78 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4028,7 +4029,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 309.88 72.39 0)
+			(at 398.78 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4037,7 +4038,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 309.88 72.39 0)
+			(at 398.78 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4045,8 +4046,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 309.88 72.39 0)
+		(property "Description" "Power symbol creates a global label with name \"+5VP\""
+			(at 398.78 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4055,12 +4056,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c3d1f20a-b4c5-4ea9-aa45-a2cf63d97ddf")
+			(uuid "b1780d86-50ef-476d-bfea-2be8829d7e84")
 		)
 		(instances
-			(project "LEDMatrix"
+			(project "SevenSegment"
 				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "#PWR07")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -4366,6 +4367,72 @@
 			(project "LEDMatrix"
 				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VP")
+		(at 347.98 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "159d5aa6-2d2f-40cd-b860-c74e0d446dd3")
+		(property "Reference" "#PWR040"
+			(at 347.98 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VP"
+			(at 347.98 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 347.98 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 347.98 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VP\""
+			(at 347.98 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "912f519e-8f05-41c5-9fd3-04d15bf6f8a1")
+		)
+		(instances
+			(project "SevenSegment"
+				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -4777,71 +4844,6 @@
 			(project "LEDMatrix"
 				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
 					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 411.48 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "322bf0c3-0bfc-4f90-b58b-cffd2239ca7c")
-		(property "Reference" "#PWR048"
-			(at 411.48 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 411.48 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 411.48 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 411.48 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 411.48 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "85a24fc0-d1d0-4f83-be76-3c920b688bf0")
-		)
-		(instances
-			(project "LEDMatrix"
-				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -5651,16 +5653,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 347.98 72.39 0)
+		(lib_id "power:+5VP")
+		(at 328.93 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "65e2bcc2-32b3-4419-8bea-99a720a1b75d")
-		(property "Reference" "#PWR040"
-			(at 347.98 76.2 0)
+		(fields_autoplaced yes)
+		(uuid "6249027b-f1c0-4146-ae1a-899d70aca456")
+		(property "Reference" "#PWR038"
+			(at 328.93 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5668,8 +5671,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 347.98 68.58 0)
+		(property "Value" "+5VP"
+			(at 328.93 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5677,7 +5680,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 347.98 72.39 0)
+			(at 328.93 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5686,7 +5689,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 347.98 72.39 0)
+			(at 328.93 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5694,8 +5697,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 347.98 72.39 0)
+		(property "Description" "Power symbol creates a global label with name \"+5VP\""
+			(at 328.93 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5704,12 +5707,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "69411681-11f1-4f02-b090-71b38802e1b4")
+			(uuid "1048c697-2ffb-4580-ae41-2254f61a7302")
 		)
 		(instances
-			(project "LEDMatrix"
+			(project "SevenSegment"
 				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "#PWR040")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -5845,71 +5848,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 367.03 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "85acbd13-8a9c-41e0-ace3-d0f7d7438a5c")
-		(property "Reference" "#PWR042"
-			(at 367.03 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 367.03 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 367.03 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 367.03 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 367.03 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "618233df-caf8-4477-998f-c0a5e99a3b71")
-		)
-		(instances
-			(project "LEDMatrix"
-				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LEDMatrix:VDMx10A1")
 		(at 137.16 128.27 0)
 		(unit 1)
@@ -6033,6 +5971,72 @@
 			(project "LEDMatrix"
 				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
 					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VP")
+		(at 386.08 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87708063-8e07-4acc-b783-1cab5ad6b376")
+		(property "Reference" "#PWR044"
+			(at 386.08 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VP"
+			(at 386.08 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 386.08 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 386.08 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VP\""
+			(at 386.08 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7285aa78-24c2-459d-b52a-17e49621042e")
+		)
+		(instances
+			(project "SevenSegment"
+				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -6169,16 +6173,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 386.08 72.39 0)
+		(lib_id "power:+5VP")
+		(at 309.88 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a3a2c658-e741-4b5a-b4c4-d93c99153b42")
-		(property "Reference" "#PWR044"
-			(at 386.08 76.2 0)
+		(fields_autoplaced yes)
+		(uuid "c7bb9145-1c1f-4bbc-95e4-a25ceaffe9fb")
+		(property "Reference" "#PWR05"
+			(at 309.88 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6186,8 +6191,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 386.08 68.58 0)
+		(property "Value" "+5VP"
+			(at 309.88 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6195,7 +6200,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 386.08 72.39 0)
+			(at 309.88 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6204,7 +6209,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 386.08 72.39 0)
+			(at 309.88 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6212,8 +6217,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 386.08 72.39 0)
+		(property "Description" "Power symbol creates a global label with name \"+5VP\""
+			(at 309.88 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6222,28 +6227,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "f126cc70-a349-47f5-a3a6-71e6fd794ac4")
+			(uuid "ded91d60-078a-47dd-92a1-1b56a9d52b90")
 		)
 		(instances
-			(project "LEDMatrix"
+			(project "SevenSegment"
 				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "#PWR044")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 398.78 72.39 0)
+		(lib_id "power:+5VP")
+		(at 290.83 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a7c9a38c-b3ab-4c79-a6b4-3863331b20a1")
-		(property "Reference" "#PWR046"
-			(at 398.78 76.2 0)
+		(fields_autoplaced yes)
+		(uuid "cbe47bc8-7f2f-4222-8cc2-917ad2f30e53")
+		(property "Reference" "#PWR050"
+			(at 290.83 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6251,8 +6257,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 398.78 68.58 0)
+		(property "Value" "+5VP"
+			(at 290.83 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6260,7 +6266,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 398.78 72.39 0)
+			(at 290.83 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6269,7 +6275,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 398.78 72.39 0)
+			(at 290.83 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6277,8 +6283,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 398.78 72.39 0)
+		(property "Description" "Power symbol creates a global label with name \"+5VP\""
+			(at 290.83 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6287,28 +6293,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "d0cd505a-40a1-445c-8e9d-36b4896ab5e5")
+			(uuid "843f032c-7b67-46e9-aeaa-df286c26e3c7")
 		)
 		(instances
-			(project "LEDMatrix"
+			(project ""
 				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "#PWR046")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 328.93 72.39 0)
+		(lib_id "power:+5VP")
+		(at 367.03 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c89622f9-3774-4f53-b54e-bbeee6381d7e")
-		(property "Reference" "#PWR038"
-			(at 328.93 76.2 0)
+		(fields_autoplaced yes)
+		(uuid "cc4d4d4e-92ec-4777-962a-e8f7a4389257")
+		(property "Reference" "#PWR042"
+			(at 367.03 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6316,8 +6323,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 328.93 68.58 0)
+		(property "Value" "+5VP"
+			(at 367.03 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6325,7 +6332,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 328.93 72.39 0)
+			(at 367.03 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6334,7 +6341,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 328.93 72.39 0)
+			(at 367.03 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6342,8 +6349,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 328.93 72.39 0)
+		(property "Description" "Power symbol creates a global label with name \"+5VP\""
+			(at 367.03 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6352,12 +6359,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "bb547d9c-f839-4d88-ae0e-5dfab07971ed")
+			(uuid "c986d1fc-9ff0-4574-865a-66adc33e4161")
 		)
 		(instances
-			(project "LEDMatrix"
+			(project "SevenSegment"
 				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "#PWR038")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -6733,6 +6740,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5VP")
+		(at 411.48 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0c4ca3a-7166-4416-8a6b-1ac7dc90ea92")
+		(property "Reference" "#PWR048"
+			(at 411.48 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VP"
+			(at 411.48 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 411.48 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 411.48 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VP\""
+			(at 411.48 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6497535d-67cd-40dd-9cb4-3971bcc86541")
+		)
+		(instances
+			(project "SevenSegment"
+				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 386.08 92.71 0)
 		(unit 1)
@@ -6897,71 +6970,6 @@
 			(project "LEDMatrix"
 				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
 					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 290.83 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f31eb173-05f0-4401-a185-91c6975bb84f")
-		(property "Reference" "#PWR05"
-			(at 290.83 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 290.83 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 290.83 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 290.83 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 290.83 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7c5a29d6-0f48-42b6-834c-d5d9b1f40d5f")
-		)
-		(instances
-			(project "LEDMatrix"
-				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
