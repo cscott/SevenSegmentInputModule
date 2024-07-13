@@ -5,12 +5,12 @@
 	(uuid "6cf12c0d-8af0-4ec6-bbc8-ca2b6c104e3c")
 	(paper "A2")
 	(title_block
-		(title "LED Matrix Input Module - Matrix")
-		(date "2022-12-18")
-		(company "Framework Computer Inc")
+		(title "Seven Segment Display Input Module")
+		(date "2024-07-13")
+		(company "C. Scott Ananian")
 		(comment 1 "This work is licensed under a Creative Commons Attribution 4.0 International License")
-		(comment 2 "https://github.com/FrameworkComputer/InputModules")
-		(comment 3 "https://frame.work")
+		(comment 2 "https://github.com/cscott/SevenSegmentInputModule")
+		(comment 3 "https://cscott.net")
 	)
 	(lib_symbols
 		(symbol "Device:C"

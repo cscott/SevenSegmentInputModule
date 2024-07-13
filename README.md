@@ -1,5 +1,5 @@
 # Seven Segment Display Input Module
-![image](SevenSegment.png)
+![image](MainBoard/MainBoard.png)
 
 This module is based on the "34x9 LED Matrix" example
 from https://github.com/FrameworkComputer/InputModules

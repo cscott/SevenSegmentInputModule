@@ -479,7 +479,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "SevenSegment.kicad_pro",
+    "filename": "MainBoard.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -517,9 +517,9 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "SevenSegment.step",
+      "step": "MainBoard.step",
       "svg": "",
-      "vrml": "SevenSegment.wrl"
+      "vrml": "MainBoard.wrl"
     },
     "page_layout_descr_file": ""
   },
