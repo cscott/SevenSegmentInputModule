@@ -4269,7 +4269,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LEDMatrix:SON_R10A1_VIS_mod"
+		(property "Footprint" "LEDMatrix:SON_R10A1_VIS_mod_noholes"
 			(at 184.15 72.39 0)
 			(effects
 				(font
@@ -4875,7 +4875,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LEDMatrix:SON_R10A1_VIS_mod"
+		(property "Footprint" "LEDMatrix:SON_R10A1_VIS_mod_noholes"
 			(at 137.16 107.95 0)
 			(effects
 				(font
@@ -5115,7 +5115,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LEDMatrix:SON_R10A1_VIS_mod"
+		(property "Footprint" "LEDMatrix:SON_R10A1_VIS_mod_noholes"
 			(at 232.41 72.39 0)
 			(effects
 				(font
@@ -5244,7 +5244,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LEDMatrix:SON_R10A1_VIS_mod"
+		(property "Footprint" "LEDMatrix:SON_R10A1_VIS_mod_noholes"
 			(at 232.41 143.51 0)
 			(effects
 				(font
@@ -5438,7 +5438,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LEDMatrix:SON_R10A1_VIS_mod"
+		(property "Footprint" "LEDMatrix:SON_R10A1_VIS_mod_noholes"
 			(at 137.16 72.39 0)
 			(effects
 				(font
@@ -5744,7 +5744,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LEDMatrix:SON_R10A1_VIS_mod"
+		(property "Footprint" "LEDMatrix:SON_R10A1_VIS_mod_noholes"
 			(at 184.15 143.51 0)
 			(effects
 				(font
@@ -5873,7 +5873,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LEDMatrix:SON_R10A1_VIS_mod"
+		(property "Footprint" "LEDMatrix:SON_R10A1_VIS_mod_noholes"
 			(at 137.16 143.51 0)
 			(effects
 				(font
@@ -6507,7 +6507,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LEDMatrix:SON_R10A1_VIS_mod"
+		(property "Footprint" "LEDMatrix:SON_R10A1_VIS_mod_noholes"
 			(at 232.41 107.95 0)
 			(effects
 				(font
@@ -6636,7 +6636,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LEDMatrix:SON_R10A1_VIS_mod"
+		(property "Footprint" "LEDMatrix:SON_R10A1_VIS_mod_noholes"
 			(at 184.15 107.95 0)
 			(effects
 				(font
