@@ -477,9 +477,9 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Bezel.step",
       "svg": "",
-      "vrml": ""
+      "vrml": "Bezel.wrl"
     },
     "page_layout_descr_file": ""
   },
