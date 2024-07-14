@@ -1006,7 +1006,7 @@
 		(uuid "95e21c65-a2d7-4803-bab1-ce20ce65ef46")
 	)
 	(no_connect
-		(at 356.87 154.94)
+		(at 327.66 157.48)
 		(uuid "f5054a6f-0311-4b4d-940f-b6caa19c6586")
 	)
 	(bus_entry
@@ -1194,16 +1194,6 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 152.4) (xy 349.25 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03f280c8-2672-41f4-b2df-52be9ebd97e2")
-	)
-	(wire
-		(pts
 			(xy 162.56 133.35) (xy 176.53 133.35)
 		)
 		(stroke
@@ -1301,16 +1291,6 @@
 			(type default)
 		)
 		(uuid "106078c5-a897-497d-996e-ae02975b8fd3")
-	)
-	(wire
-		(pts
-			(xy 349.25 157.48) (xy 353.06 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10be7c43-bae3-4d1b-965b-c5ef80d68534")
 	)
 	(wire
 		(pts
@@ -1564,16 +1544,6 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 157.48) (xy 327.66 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31a05eaf-f457-4cae-bf92-f2b8048d44a2")
-	)
-	(wire
-		(pts
 			(xy 240.03 64.77) (xy 241.3 64.77)
 		)
 		(stroke
@@ -1704,16 +1674,6 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 157.48) (xy 353.06 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c3e83b4-cba5-4b10-9d68-0076cedbe07e")
-	)
-	(wire
-		(pts
 			(xy 299.72 104.14) (xy 299.72 106.68)
 		)
 		(stroke
@@ -1831,16 +1791,6 @@
 			(type default)
 		)
 		(uuid "4ea25c84-36b1-4674-839a-ee1f5a008bfb")
-	)
-	(wire
-		(pts
-			(xy 327.66 154.94) (xy 331.47 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f9d3ff9-6db3-4695-bcb8-d7db0034ff0c")
 	)
 	(wire
 		(pts
@@ -2081,16 +2031,6 @@
 			(type default)
 		)
 		(uuid "68da40fa-ce3d-48be-8894-0ca10051a4d5")
-	)
-	(wire
-		(pts
-			(xy 323.85 157.48) (xy 327.66 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "697f5206-aea4-488a-852d-1a3761c857b0")
 	)
 	(wire
 		(pts
@@ -2344,7 +2284,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 154.94) (xy 356.87 154.94)
+			(xy 323.85 157.48) (xy 327.66 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3141,16 +3081,6 @@
 			(type default)
 		)
 		(uuid "f602d984-0104-49bd-9599-70f5ae7e2e0d")
-	)
-	(wire
-		(pts
-			(xy 331.47 157.48) (xy 331.47 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6070e38-4dd0-4062-8f21-c98560a1b302")
 	)
 	(bus
 		(pts
@@ -4917,72 +4847,6 @@
 	)
 	(symbol
 		(lib_id "power:+5VP")
-		(at 349.25 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c7a3eb3-a100-46a6-b41f-29164101b5a6")
-		(property "Reference" "#PWR066"
-			(at 349.25 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5VP"
-			(at 349.25 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 349.25 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 349.25 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5VP\""
-			(at 349.25 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "64327ecd-c9f7-44ce-84cc-b98b5e641f30")
-		)
-		(instances
-			(project "SevenSegment"
-				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5VP")
 		(at 350.52 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5042,154 +4906,6 @@
 			(project "SevenSegment"
 				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
 					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 331.47 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "29a2359d-610b-48d4-98f6-f605d6f96fe2")
-		(property "Reference" "#PWR069"
-			(at 331.47 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 327.66 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 331.47 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 331.47 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 331.47 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "58f3437b-80f6-4b00-9b52-5ecfd38ff78e")
-		)
-		(instances
-			(project "SevenSegment"
-				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "#PWR069")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LCSC:XL-5050RGBC-WS2812B")
-		(at 340.36 156.21 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2a15329d-2eac-45b3-8976-662621fbed53")
-		(property "Reference" "LED9"
-			(at 340.36 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XL-5050RGBC-WS2812B"
-			(at 340.36 164.846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LCSC:LED-SMD_4P-L5.0-W5.0-BL_XL-5050RGBC"
-			(at 340.36 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 340.36 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 340.36 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C2843785"
-			(at 340.36 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "e57b16ed-e747-40c0-b286-def6f407e9c0")
-		)
-		(pin "3"
-			(uuid "bf103086-45bf-43a5-a60f-1daa3a140c14")
-		)
-		(pin "2"
-			(uuid "66673b78-9428-4a21-ab8f-bf1ee57577e9")
-		)
-		(pin "1"
-			(uuid "13216066-9012-477f-9855-7693a29137f6")
-		)
-		(instances
-			(project "SevenSegment"
-				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "LED9")
 					(unit 1)
 				)
 			)
