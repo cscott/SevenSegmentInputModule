@@ -73,7 +73,6 @@
         "silk_overlap|61910000|108972000|693d5113-f340-4560-8c87-4e41ccb415f7|af863158-04d0-4ed2-87d8-f8c059c7cb76",
         "silk_overlap|62010000|155628000|366c55ed-c3cd-4ef2-b8ee-1a2eeaaca8be|00f05a8d-6256-4fc9-8712-9575d3459f3b",
         "silk_overlap|62010000|95128000|47b5bf8c-2f3c-489f-b339-e3c6218d6f10|e2934f10-09ae-4164-953a-659e68c90ed6",
-        "silk_overlap|71678800|155448000|d40e22e1-adf0-4f4e-829b-a54b159b6576|e7cc3515-a2d7-4999-acbd-ebf7243e102b",
         "silk_overlap|71810000|139372000|f86959a3-2f8a-43cf-bafe-e3b5444efaa2|e34d6252-03c5-484f-9102-a0aefc9d41a0",
         "silk_overlap|71810000|78872000|f9776768-dcf6-4f6f-8e7f-3a1ad09b8e8c|e1794555-fb72-4a3b-8967-8c16058cee47",
         "silk_overlap|71910000|125228000|28c90e2c-0314-4c1d-8bb3-5a548ab714f9|10341f3b-6623-432a-990c-a0e7c6dc23af"
@@ -562,7 +561,7 @@
           "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -598,7 +597,7 @@
           "group_by": false,
           "label": "LCSC Alt",
           "name": "LCSC Alt",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -622,7 +621,7 @@
           "group_by": false,
           "label": "JLCPCB Rotation Offset",
           "name": "JLCPCB Rotation Offset",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -634,7 +633,7 @@
           "group_by": false,
           "label": "LCSC Part",
           "name": "LCSC Part",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",

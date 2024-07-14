@@ -4119,10 +4119,22 @@
 		(uuid "6f5f7946-7300-4ddf-a0bd-07ae1424f160")
 	)
 	(junction
+		(at 68.58 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ab11a27-31c2-4736-b5ff-119f7ef88e87")
+	)
+	(junction
 		(at 275.59 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "859df0fd-6ad3-40a1-9b4d-67684a024094")
+	)
+	(junction
+		(at 80.01 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86f7e8ae-687d-4bb2-87ce-6622640f3aa6")
 	)
 	(junction
 		(at 196.85 41.91)
@@ -4562,6 +4574,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 228.6) (xy 68.58 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bd2d242-bb06-4559-9362-44db7685fcc4")
+	)
+	(wire
+		(pts
 			(xy 33.02 27.94) (xy 33.02 30.48)
 		)
 		(stroke
@@ -4649,6 +4671,16 @@
 			(type default)
 		)
 		(uuid "22cb6a60-6901-4201-b75b-52add1c9776a")
+	)
+	(wire
+		(pts
+			(xy 68.58 228.6) (xy 68.58 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "232a6880-1aa4-41b0-b698-9e05e0067a9c")
 	)
 	(wire
 		(pts
@@ -4862,6 +4894,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 64.77) (xy 245.11 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ddacd18-ca72-4f02-a3a8-dbcc774e4765")
+	)
+	(wire
+		(pts
 			(xy 50.8 130.81) (xy 57.15 130.81)
 		)
 		(stroke
@@ -4929,6 +4971,26 @@
 			(type default)
 		)
 		(uuid "43bca59e-6f07-42ad-b655-09a2c6a25a0d")
+	)
+	(wire
+		(pts
+			(xy 252.73 57.15) (xy 265.43 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "444bdeeb-02d8-492f-9e13-b7797926e023")
+	)
+	(wire
+		(pts
+			(xy 77.47 228.6) (xy 80.01 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45544b18-9ffc-443d-8c61-fbb1083ff5bc")
 	)
 	(wire
 		(pts
@@ -5009,16 +5071,6 @@
 			(type default)
 		)
 		(uuid "4afc9d14-317a-4c54-b696-73ccf08f9a60")
-	)
-	(wire
-		(pts
-			(xy 231.14 57.15) (xy 236.22 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c375494-6116-4597-8934-72ed27e7f6fb")
 	)
 	(wire
 		(pts
@@ -5179,16 +5231,6 @@
 			(type default)
 		)
 		(uuid "5f5350b7-9e32-46a0-bbcf-62fe5d106a50")
-	)
-	(wire
-		(pts
-			(xy 243.84 57.15) (xy 257.81 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6032f761-cf72-4059-b06f-993690650f4a")
 	)
 	(wire
 		(pts
@@ -5442,16 +5484,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 64.77) (xy 257.81 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "791882c7-f643-4dc3-8b20-4128076119e7")
-	)
-	(wire
-		(pts
 			(xy 264.16 30.48) (xy 264.16 33.02)
 		)
 		(stroke
@@ -5552,7 +5584,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 231.14) (xy 69.85 231.14)
+			(xy 50.8 231.14) (xy 68.58 231.14)
 		)
 		(stroke
 			(width 0)
@@ -5829,6 +5861,16 @@
 			(type default)
 		)
 		(uuid "a36e4325-d7eb-4a71-8e34-cfabb053285b")
+	)
+	(wire
+		(pts
+			(xy 68.58 231.14) (xy 69.85 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4dbbe24-5b28-4a6c-961f-0e5c3c2cffd3")
 	)
 	(wire
 		(pts
@@ -6402,6 +6444,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 228.6) (xy 80.01 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e11f1dae-51e1-44cd-90a6-38a7ec3521e6")
+	)
+	(wire
+		(pts
 			(xy 224.79 146.05) (xy 246.38 146.05)
 		)
 		(stroke
@@ -6522,6 +6574,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 64.77) (xy 265.43 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecbc4145-4897-4d43-970f-5b36714f6988")
+	)
+	(wire
+		(pts
 			(xy 52.07 86.36) (xy 54.61 86.36)
 		)
 		(stroke
@@ -6602,6 +6664,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 57.15) (xy 245.11 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa60e394-18ca-4b4f-bd8e-093073d7e34a")
+	)
+	(wire
+		(pts
 			(xy 76.2 59.69) (xy 76.2 60.96)
 		)
 		(stroke
@@ -6642,6 +6714,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 57.15) (xy 236.22 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feaa2bdd-ea14-43c2-aa46-811d4ff0065e")
+	)
+	(wire
+		(pts
 			(xy 218.44 38.1) (xy 218.44 36.83)
 		)
 		(stroke
@@ -6660,6 +6742,16 @@
 			(justify left bottom)
 		)
 		(uuid "10638988-840b-4ec6-a8a2-d57e07ea02f8")
+	)
+	(text "300k||470k for nominal 180k"
+		(exclude_from_sim no)
+		(at 81.026 222.758 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1bac8bf4-a150-476e-a737-78cf29c4795c")
 	)
 	(text "Crystal"
 		(exclude_from_sim no)
@@ -6748,7 +6840,7 @@
 	)
 	(text "Make sure R6 and R7 are close to RP2040"
 		(exclude_from_sim no)
-		(at 247.65 60.96 0)
+		(at 255.27 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6756,6 +6848,16 @@
 			(justify left bottom)
 		)
 		(uuid "8f7330c4-95af-4a17-8938-214c2819f52f")
+	)
+	(text "22+5.1 for nominal 27R"
+		(exclude_from_sim no)
+		(at 244.856 48.768 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c5569331-a370-4fda-add3-fbd3b31d5567")
 	)
 	(text "Make sure C6 is close to pin 45 of RP2040"
 		(exclude_from_sim no)
@@ -7132,7 +7234,7 @@
 		(uuid "a9ec8a29-013f-4dab-b937-ac4a3058ba49")
 	)
 	(label "USB_DN"
-		(at 257.81 64.77 180)
+		(at 265.43 64.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7253,7 +7355,7 @@
 		(uuid "f2e30abc-32aa-4a68-8c58-a5714ff8d852")
 	)
 	(label "USB_DP"
-		(at 257.81 57.15 180)
+		(at 265.43 57.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8131,6 +8233,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 248.92 57.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24c99e09-3b3b-49e4-9fce-9fd6097e7560")
+		(property "Reference" "R11"
+			(at 248.92 51.8922 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1"
+			(at 248.92 54.2036 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 248.666 58.166 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 248.92 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 248.92 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25197"
+			(at 248.92 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" ""
+			(at 248.92 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 248.92 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0502754-262a-41b7-92ef-63ddddf3482d")
+		)
+		(pin "2"
+			(uuid "f589949c-e750-4de1-99f2-a449be11cf65")
+		)
+		(instances
+			(project "MainBoard"
+				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+1V1")
 		(at 172.72 20.32 0)
 		(unit 1)
@@ -8358,6 +8563,15 @@
 		)
 		(property "LCSC Part" "C141606"
 			(at 275.59 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "180"
+			(at 275.59 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10399,6 +10613,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 248.92 64.77 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6bc022fb-f129-45e6-bf1f-6c3627b9c2e4")
+		(property "Reference" "R13"
+			(at 248.92 59.5122 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1"
+			(at 248.92 61.8236 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 248.666 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 248.92 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 248.92 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25197"
+			(at 248.92 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" ""
+			(at 248.92 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 248.92 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "148c0f74-2f64-4471-8232-55ded4efb338")
+		)
+		(pin "2"
+			(uuid "6871feed-ed39-4f71-afe6-cbb272f492a2")
+		)
+		(instances
+			(project "MainBoard"
+				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 275.59 35.56 0)
 		(unit 1)
@@ -12396,6 +12713,119 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 73.66 228.6 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a12619c8-3d8b-4a90-bf54-d5e2fd5fe755")
+		(property "Reference" "R14"
+			(at 71.12 226.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470k"
+			(at 76.2 226.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 73.914 229.616 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 73.66 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23178"
+			(at 73.66 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 73.66 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Alt" ""
+			(at 73.66 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" ""
+			(at 73.66 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 73.66 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "203c3770-d7b6-45b1-ab9b-289ae641d93a")
+		)
+		(pin "2"
+			(uuid "fe4d1b03-a5f2-4142-9376-6938cf0c4546")
+		)
+		(instances
+			(project "MainBoard"
+				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 256.54 125.73 0)
 		(unit 1)
@@ -13119,7 +13549,7 @@
 				)
 			)
 		)
-		(property "Value" "180k"
+		(property "Value" "300k"
 			(at 76.2 233.68 90)
 			(effects
 				(font
@@ -13127,7 +13557,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 73.914 230.124 90)
 			(effects
 				(font
@@ -13154,7 +13584,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25760"
+		(property "LCSC" "C23024"
 			(at 73.66 231.14 0)
 			(effects
 				(font
@@ -13680,7 +14110,7 @@
 				)
 			)
 		)
-		(property "Value" "27"
+		(property "Value" "22"
 			(at 240.03 54.2036 90)
 			(effects
 				(font
@@ -13715,7 +14145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "P27.0LCT-ND"
+		(property "Digikey" "P22.0LCT-ND"
 			(at 240.03 57.15 0)
 			(effects
 				(font
@@ -13724,7 +14154,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C138021"
+		(property "LCSC" "C25092"
 			(at 240.03 57.15 0)
 			(effects
 				(font
@@ -14508,7 +14938,7 @@
 				)
 			)
 		)
-		(property "Value" "27"
+		(property "Value" "22"
 			(at 240.03 61.8236 90)
 			(effects
 				(font
@@ -14543,7 +14973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "P27.0LCT-ND"
+		(property "Digikey" "P22.0LCT-ND"
 			(at 240.03 64.77 0)
 			(effects
 				(font
@@ -14552,7 +14982,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C138021"
+		(property "LCSC" "C25092"
 			(at 240.03 64.77 0)
 			(effects
 				(font
@@ -15415,6 +15845,15 @@
 		)
 		(property "LCSC Part" "C455045"
 			(at 275.59 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "180"
+			(at 275.59 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
