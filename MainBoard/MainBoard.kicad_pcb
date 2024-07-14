@@ -2088,7 +2088,7 @@
 				)
 			)
 		)
-		(property "Value" "XL-5050RGBC-WS2812B"
+		(property "Value" "SKC6812RGBW-BW-B"
 			(at 0 6.5 0)
 			(layer "F.Fab")
 			(uuid "cbd227ad-a2b1-4379-baf8-311fe3b781c8")
@@ -2135,12 +2135,38 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2843785"
+		(property "LCSC Part" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f174c3db-5d1c-4a98-872e-67e726098873")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "90"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "241bab5f-446f-4477-824d-bdaa306e8059")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5380878"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1d9395c9-f076-4fc4-ab33-5a2e3a0a0202")
 			(effects
 				(font
 					(size 1 1)
@@ -3405,7 +3431,7 @@
 				)
 			)
 		)
-		(property "Value" "XL-5050RGBC-WS2812B"
+		(property "Value" "SKC6812RGBW-BW-B"
 			(at 0 6.5 90)
 			(layer "F.Fab")
 			(uuid "70e34b35-de0b-403b-b188-85a876227348")
@@ -3452,12 +3478,38 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2843785"
+		(property "LCSC Part" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cea736a6-1fa9-4a6d-8e11-827e32548ef8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "90"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7083bf42-1e0b-4ffc-98e9-5eda8aa99851")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5380878"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "24667a8b-5c07-4019-99b8-245bc9a539e4")
 			(effects
 				(font
 					(size 1 1)
@@ -4155,7 +4207,7 @@
 				)
 			)
 		)
-		(property "Value" "XL-5050RGBC-WS2812B"
+		(property "Value" "SKC6812RGBW-BW-B"
 			(at 0 6.5 90)
 			(layer "F.Fab")
 			(uuid "e21bbd04-fad7-4d2e-8093-5dd0aa2245c4")
@@ -4202,12 +4254,38 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2843785"
+		(property "LCSC Part" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "593343ec-6d47-4864-a82f-b2005ab55769")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "90"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb7d0f26-6067-4b64-9608-c2ed2584f418")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5380878"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7700cd94-faa8-4332-a905-68784258a7f6")
 			(effects
 				(font
 					(size 1 1)
@@ -4597,7 +4675,7 @@
 				)
 			)
 		)
-		(property "Value" "XL-5050RGBC-WS2812B"
+		(property "Value" "SKC6812RGBW-BW-B"
 			(at 0 6.5 90)
 			(layer "F.Fab")
 			(uuid "4704a38d-fc90-4431-9a74-9d6332b54fcf")
@@ -4644,12 +4722,38 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2843785"
+		(property "LCSC Part" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e2317d2a-d9eb-4031-b1a6-5f56c60013c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "90"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b2dc15f6-bba3-453c-84d1-fd91fe05e5c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5380878"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4dbbb0c4-e67c-444a-b87d-095626cbed8c")
 			(effects
 				(font
 					(size 1 1)
@@ -4897,7 +5001,7 @@
 				)
 			)
 		)
-		(property "Value" "XL-5050RGBC-WS2812B"
+		(property "Value" "SKC6812RGBW-BW-B"
 			(at 0 6.5 0)
 			(layer "F.Fab")
 			(uuid "83e78b8a-20e9-4728-b75e-b2e9786e4f92")
@@ -4944,12 +5048,38 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2843785"
+		(property "LCSC Part" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "67562e10-4064-4530-854f-b3f9054f4e14")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "90"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e4cfb1d-a881-4532-95fd-aa3ae44f7129")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5380878"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "046f3be9-b002-4767-97c6-5aa1aa158a07")
 			(effects
 				(font
 					(size 1 1)
@@ -5197,7 +5327,7 @@
 				)
 			)
 		)
-		(property "Value" "XL-5050RGBC-WS2812B"
+		(property "Value" "SKC6812RGBW-BW-B"
 			(at 0 6.5 0)
 			(layer "F.Fab")
 			(uuid "533f8ca7-f601-436b-932c-ea32b2cc3b09")
@@ -5244,12 +5374,38 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2843785"
+		(property "LCSC Part" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3b923311-3c19-44df-b0ab-13ec74a7b105")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "90"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47841943-76bc-4aae-95fa-41f46a1460bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5380878"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "00af4965-80f9-4e58-9c83-17c97b4a0a42")
 			(effects
 				(font
 					(size 1 1)
@@ -6008,7 +6164,7 @@
 				)
 			)
 		)
-		(property "Value" "XL-5050RGBC-WS2812B"
+		(property "Value" "SKC6812RGBW-BW-B"
 			(at 0 6.5 0)
 			(layer "F.Fab")
 			(uuid "ff299a2a-b6b8-46ab-9989-89a50cd8c411")
@@ -6055,12 +6211,38 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2843785"
+		(property "LCSC Part" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7c332717-369d-42c0-ae4b-af295007efca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "90"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5cb8ee6e-97de-4ddb-93d3-30d178a3cd35")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5380878"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a500b06a-ba71-4ea1-90d8-9ef7941ff4cf")
 			(effects
 				(font
 					(size 1 1)
@@ -7640,7 +7822,7 @@
 				)
 			)
 		)
-		(property "Value" "XL-5050RGBC-WS2812B"
+		(property "Value" "SKC6812RGBW-BW-B"
 			(at 0 6.5 0)
 			(layer "F.Fab")
 			(uuid "a20a82d5-c12c-4ced-8734-071c44f9fb4a")
@@ -7687,12 +7869,38 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2843785"
+		(property "LCSC Part" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "386d7c77-9e29-4725-8491-d370c5cee028")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "90"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c21e2e43-a65a-42af-b731-e32b75c509ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5380878"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "faaff9aa-5e49-4116-8152-f8847573fbb7")
 			(effects
 				(font
 					(size 1 1)

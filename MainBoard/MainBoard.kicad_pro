@@ -597,7 +597,7 @@
           "group_by": false,
           "label": "LCSC Alt",
           "name": "LCSC Alt",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
