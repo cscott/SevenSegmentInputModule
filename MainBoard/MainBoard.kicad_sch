@@ -5284,6 +5284,26 @@
 	)
 	(wire
 		(pts
+			(xy 374.65 102.87) (xy 386.08 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65d6a72a-a34a-4a55-818d-bfef173d8df2")
+	)
+	(wire
+		(pts
+			(xy 386.08 105.41) (xy 379.73 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66c08efa-1804-40b4-8977-b55b813f4365")
+	)
+	(wire
+		(pts
 			(xy 337.82 110.49) (xy 337.82 113.03)
 		)
 		(stroke
@@ -5591,6 +5611,16 @@
 			(type default)
 		)
 		(uuid "85eec330-caf3-452b-af64-5c1cf6c0b9ab")
+	)
+	(wire
+		(pts
+			(xy 379.73 97.79) (xy 379.73 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "870a0e00-05e7-4946-b4d0-c112cd57c6c3")
 	)
 	(wire
 		(pts
@@ -6164,6 +6194,16 @@
 	)
 	(wire
 		(pts
+			(xy 379.73 105.41) (xy 379.73 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c47237bd-3c34-4ed8-9fff-4af707007e52")
+	)
+	(wire
+		(pts
 			(xy 190.5 219.71) (xy 190.5 224.79)
 		)
 		(stroke
@@ -6411,6 +6451,16 @@
 			(type default)
 		)
 		(uuid "dd31ca2e-9de9-48ec-92bf-6ef9d87df917")
+	)
+	(wire
+		(pts
+			(xy 379.73 100.33) (xy 386.08 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddc659c1-db1e-469c-8c10-ba9d71dfc155")
 	)
 	(wire
 		(pts
@@ -6870,6 +6920,16 @@
 		)
 		(uuid "ca013e2d-c93d-4582-b21d-accfb1477d71")
 	)
+	(text "NeoPixel testbed\n(for testing label backlighting\nwithout populating the entire board)"
+		(exclude_from_sim no)
+		(at 380.492 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f6b31518-bb15-4d87-ad73-86f87be3a015")
+	)
 	(label "XOUT"
 		(at 81.28 184.15 180)
 		(fields_autoplaced yes)
@@ -7177,6 +7237,17 @@
 			(justify right bottom)
 		)
 		(uuid "90773535-3735-45b5-bb1c-bab7d5a739a5")
+	)
+	(label "NEOPIXEL"
+		(at 374.65 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "92f77f41-aed7-4e14-97c3-ad5ef4475d3c")
 	)
 	(label "NEOPIXEL"
 		(at 299.72 146.05 0)
@@ -7605,6 +7676,72 @@
 			(project "LEDMatrix"
 				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d"
 					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 379.73 110.49 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c436a31-6477-4d21-9df5-6dafffa53b78")
+		(property "Reference" "#PWR066"
+			(at 379.73 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 379.603 114.8842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 379.73 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 379.73 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 379.73 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f17112e8-a0ad-45a2-bf11-e7d0014b8a84")
+		)
+		(instances
+			(project "MainBoard"
+				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d"
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -8162,6 +8299,90 @@
 			(project "LEDMatrix"
 				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 386.08 105.41 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d202fd3-7e17-47dd-9531-7b6c6a645acb")
+		(property "Reference" "TP7"
+			(at 392.43 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 394.97 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 386.08 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 386.08 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 386.08 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" ""
+			(at 386.08 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 386.08 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb3f9811-01fe-467c-8119-46af35ba3fb4")
+		)
+		(instances
+			(project "MainBoard"
+				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -10547,6 +10768,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 386.08 102.87 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "64686898-f56d-44ec-908b-6e11a2246010")
+		(property "Reference" "TP6"
+			(at 392.43 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 394.97 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 386.08 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 386.08 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 386.08 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" ""
+			(at 386.08 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 386.08 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "753bfab9-ae20-450a-bf9d-7acb20abe568")
+		)
+		(instances
+			(project "MainBoard"
+				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 76.2 58.42 0)
 		(unit 1)
@@ -10945,6 +11250,72 @@
 			(project "LEDMatrix"
 				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VP")
+		(at 379.73 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fb9939c-aa58-4a7b-8fbd-c637fe23eab0")
+		(property "Reference" "#PWR069"
+			(at 379.73 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VP"
+			(at 379.73 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 379.73 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 379.73 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VP\""
+			(at 379.73 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d568abf-eb10-4071-8c06-92ae878dba61")
+		)
+		(instances
+			(project "MainBoard"
+				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d"
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -13639,6 +14010,90 @@
 			(project "LEDMatrix"
 				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 386.08 100.33 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "b01e573a-997d-4eae-bcd7-e9ed8324be9f")
+		(property "Reference" "TP5"
+			(at 392.43 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 394.97 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 386.08 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 386.08 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 386.08 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" ""
+			(at 386.08 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 386.08 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e444a982-7ac9-47ed-837c-b977b80b39d2")
+		)
+		(instances
+			(project "MainBoard"
+				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
