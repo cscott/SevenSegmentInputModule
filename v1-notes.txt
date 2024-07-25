@@ -36,3 +36,10 @@ x Remove unnecessary RESET switch footprint
     0.1mm ND film (1ply is 1.5mil = 0.04mm. 0.1mm is ~4mil)
 
   Compared to 3.1 (=2.35+0.75) for indicated thickness to input deck surface
+
+* narrow the bottom PCB (at least), it's pushing max width.
+* trim down the top/bottom slightly to allow tint film to wrap around?
+----
+* clear silkscreen lines on bottom PCB to indicate where the spacer PCB aligns
+* legend PCB appears to be slightly longer than spacer?
+* trim 1mm (?) from bottom of legend PCB to allow touchpad spacer overlap.
