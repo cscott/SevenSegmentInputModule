@@ -1239,24 +1239,12 @@
 		(uuid "e5c54de5-3727-4e6a-907a-553030b5a7dc")
 	)
 	(no_connect
-		(at 105.41 97.79)
-		(uuid "2ecc0bbe-8cc1-4ea0-8471-cc7321b0ebeb")
-	)
-	(no_connect
 		(at 105.41 102.87)
 		(uuid "48875ef5-d83b-4224-8623-533105c0c9d0")
 	)
 	(no_connect
 		(at 105.41 107.95)
 		(uuid "8a784d48-5d09-4709-a4e7-94e5c5acd1a0")
-	)
-	(no_connect
-		(at 105.41 100.33)
-		(uuid "d2d1d15a-999f-46ca-aabd-abe0f7d8a63e")
-	)
-	(no_connect
-		(at 105.41 95.25)
-		(uuid "e1a867fe-bacb-4cd8-a110-74533cfe2357")
 	)
 	(no_connect
 		(at 105.41 110.49)
@@ -1267,6 +1255,15 @@
 		(uuid "e9c2c2ad-4f01-4d3a-8d08-834b7ff30996")
 	)
 	(bus_entry
+		(at 123.19 100.33)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "012a0732-714b-47a4-8c07-2d1be9393d0b")
+	)
+	(bus_entry
 		(at 123.19 62.23)
 		(size 2.54 2.54)
 		(stroke
@@ -1274,6 +1271,15 @@
 			(type default)
 		)
 		(uuid "045713b8-3e75-42bd-828f-1f61c238a481")
+	)
+	(bus_entry
+		(at 123.19 95.25)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05466ffb-e48a-417d-8cbe-4cad74c55bd2")
 	)
 	(bus_entry
 		(at 123.19 92.71)
@@ -1384,6 +1390,15 @@
 		(uuid "a0378021-bbf5-4de8-8940-2fffaf10ecaa")
 	)
 	(bus_entry
+		(at 123.19 97.79)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc293b22-2517-459b-be35-b69deed15efd")
+	)
+	(bus_entry
 		(at 123.19 74.93)
 		(size 2.54 2.54)
 		(stroke
@@ -1479,16 +1494,6 @@
 		)
 		(uuid "159528ff-e240-492b-99b7-ef23db8f62d3")
 	)
-	(wire
-		(pts
-			(xy 101.6 95.25) (xy 105.41 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15d29246-e191-4d4f-88a4-63aea5e434a0")
-	)
 	(bus
 		(pts
 			(xy 125.73 62.23) (xy 125.73 64.77)
@@ -1498,6 +1503,16 @@
 			(type default)
 		)
 		(uuid "191518dd-522b-42ef-aad8-06517b2b4085")
+	)
+	(wire
+		(pts
+			(xy 101.6 97.79) (xy 123.19 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dbd4a41-d0fd-414d-8c94-9e17b59b8d9c")
 	)
 	(wire
 		(pts
@@ -1679,6 +1694,16 @@
 		)
 		(uuid "64f3798f-ba6b-4f1f-ac12-d9a460cab5fc")
 	)
+	(bus
+		(pts
+			(xy 125.73 100.33) (xy 125.73 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "659afa97-3df7-4031-b95b-240fc90d4498")
+	)
 	(wire
 		(pts
 			(xy 59.69 57.15) (xy 71.12 57.15)
@@ -1708,16 +1733,6 @@
 			(type default)
 		)
 		(uuid "6e32f588-d679-41e2-8c2c-99792207f6fe")
-	)
-	(wire
-		(pts
-			(xy 125.73 114.3) (xy 160.02 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e4ea62d-1f41-429c-a37a-54a89e4ed87e")
 	)
 	(bus
 		(pts
@@ -1759,19 +1774,9 @@
 		)
 		(uuid "7c30dfb6-f0fd-478d-9395-c650b4c18b5f")
 	)
-	(wire
-		(pts
-			(xy 101.6 100.33) (xy 105.41 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d68ff7d-3710-4bed-ab86-bc4418315d36")
-	)
 	(bus
 		(pts
-			(xy 125.73 110.49) (xy 125.73 95.25)
+			(xy 125.73 110.49) (xy 125.73 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1879,6 +1884,16 @@
 		)
 		(uuid "9ce9c160-2f83-4c4d-b3d9-e674a0d70ffe")
 	)
+	(bus
+		(pts
+			(xy 125.73 102.87) (xy 125.73 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d89a746-a63e-4c01-817c-ee38181261d3")
+	)
 	(wire
 		(pts
 			(xy 88.9 123.19) (xy 88.9 125.73)
@@ -1898,6 +1913,16 @@
 			(type default)
 		)
 		(uuid "a1162733-c2e9-47bb-91b3-3a80fba06b31")
+	)
+	(bus
+		(pts
+			(xy 125.73 97.79) (xy 125.73 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a44341f1-97bd-41ff-8c1d-805523676e1c")
 	)
 	(wire
 		(pts
@@ -2021,16 +2046,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 97.79) (xy 105.41 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df6e5851-69bf-40c5-b9ca-3181cf716958")
-	)
-	(wire
-		(pts
 			(xy 101.6 77.47) (xy 123.19 77.47)
 		)
 		(stroke
@@ -2068,6 +2083,16 @@
 			(type default)
 		)
 		(uuid "e33ef5b8-cd0f-47af-b8ab-8a78fee4a728")
+	)
+	(wire
+		(pts
+			(xy 101.6 95.25) (xy 123.19 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e43fb3a4-de8b-4559-bf2c-97f38405a7ad")
 	)
 	(bus
 		(pts
@@ -2111,6 +2136,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 100.33) (xy 123.19 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef11cafc-6ccb-41ca-a963-a10e1558343f")
+	)
+	(wire
+		(pts
 			(xy 71.12 33.02) (xy 62.23 33.02)
 		)
 		(stroke
@@ -2148,6 +2183,16 @@
 			(type default)
 		)
 		(uuid "fc4d7d80-b2b8-4a81-876d-812a34d231b0")
+	)
+	(text "CS8/9 are for legend backlight"
+		(exclude_from_sim no)
+		(at 168.656 86.868 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b45704a0-2ae2-419b-a4b0-bcb97a8e6dbf")
 	)
 	(text "Datasheet says the series resistors on CSx aren't\nnecessary if single-color LEDs are run from\n3.3V -- and we're short on space, so let's\ndo exactly that!"
 		(exclude_from_sim no)
@@ -2214,6 +2259,17 @@
 		)
 		(uuid "356f1d57-f69d-4b92-b559-a2791a293d16")
 	)
+	(label "CS8"
+		(at 123.19 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3d6c1d36-f2f7-4f12-9158-f64447d14b1c")
+	)
 	(label "LED_SW7"
 		(at 123.19 67.31 180)
 		(fields_autoplaced yes)
@@ -2224,6 +2280,17 @@
 			(justify right bottom)
 		)
 		(uuid "4ad50bb1-e43a-4f60-b7ed-7cd144596921")
+	)
+	(label "CS10"
+		(at 123.19 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4cbe49fb-f24c-4cb5-a74f-bc12f602c1eb")
 	)
 	(label "LED_SW3"
 		(at 123.19 57.15 180)
@@ -2335,6 +2402,17 @@
 		)
 		(uuid "cb089458-a032-420c-abaf-77cb41bcedc6")
 	)
+	(label "CS9"
+		(at 123.19 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ee172b32-6ac7-4665-8fbe-bee2a6524a4d")
+	)
 	(label "CS3"
 		(at 123.19 82.55 180)
 		(fields_autoplaced yes)
@@ -2379,18 +2457,6 @@
 			(justify right)
 		)
 		(uuid "0b9cc3cc-d964-489a-a6fa-a6a553199b36")
-	)
-	(hierarchical_label "NEOPIXEL"
-		(shape input)
-		(at 125.73 114.3 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4c0d0150-65ce-4b75-ab33-b47202940290")
 	)
 	(hierarchical_label "SCL"
 		(shape input)
@@ -3234,16 +3300,6 @@
 				(justify left)
 			)
 			(uuid "5b8403fb-d602-496b-bc8e-8a7965a1ccc0")
-		)
-		(pin "NEOPIXEL" input
-			(at 160.02 114.3 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "6675bfa1-e27f-4047-b5ee-a95b17a0f9ce")
 		)
 		(instances
 			(project "MainBoard"

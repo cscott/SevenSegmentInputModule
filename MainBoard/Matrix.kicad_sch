@@ -13,155 +13,19 @@
 		(comment 3 "https://cscott.net")
 	)
 	(lib_symbols
-		(symbol "Device:C"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "LCSC:XL-5050RGBC-WS2812B"
+		(symbol "LCSC:whiteLEDSMD"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "LED"
-				(at 0 6.35 0)
+				(at 0 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "XL-5050RGBC-WS2812B"
+			(property "Value" "whiteLEDSMD"
 				(at 0 -6.35 0)
 				(effects
 					(font
@@ -169,7 +33,7 @@
 					)
 				)
 			)
-			(property "Footprint" "LCSC:LED-SMD_4P-L5.0-W5.0-BL_XL-5050RGBC"
+			(property "Footprint" "LCSC:LED0805-R-RD"
 				(at 0 -8.89 0)
 				(effects
 					(font
@@ -178,8 +42,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_white-0805_C34499.html"
+				(at 0 -11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -196,8 +60,8 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C2843785"
-				(at 0 -11.43 0)
+			(property "LCSC Part" "C34499"
+				(at 0 -13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -205,21 +69,11 @@
 					(hide yes)
 				)
 			)
-			(symbol "XL-5050RGBC-WS2812B_0_1"
-				(rectangle
-					(start -6.35 3.81)
-					(end 6.35 -3.81)
-					(stroke
-						(width 0)
-						(type default)
+			(symbol "whiteLEDSMD_0_1"
+				(polyline
+					(pts
+						(xy 1.02 1.27) (xy 2.79 3.05)
 					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -5.08 2.54)
-					(radius 0.38)
 					(stroke
 						(width 0)
 						(type default)
@@ -228,12 +82,72 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 1.27 0.76) (xy 1.27 -3.3)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.03 0.25) (xy 3.81 2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.79) (xy 1.27 -1.27) (xy -1.27 0.51) (xy -1.27 -2.79)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.79 3.05) (xy 1.78 2.54) (xy 2.29 2.03) (xy 2.79 3.05)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.03) (xy 2.79 1.52) (xy 3.3 1.02) (xy 3.81 2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 			)
-			(symbol "XL-5050RGBC-WS2812B_1_1"
-				(pin power_in line
-					(at -8.89 1.27 0)
-					(length 2.54)
-					(name "VDD"
+			(symbol "whiteLEDSMD_1_1"
+				(pin passive line
+					(at -5.08 -1.27 0)
+					(length 3.81)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -248,10 +162,10 @@
 						)
 					)
 				)
-				(pin output line
-					(at -8.89 -1.27 0)
-					(length 2.54)
-					(name "DOU"
+				(pin passive line
+					(at 5.08 -1.27 180)
+					(length 3.81)
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -259,42 +173,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 8.89 -1.27 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 8.89 1.27 180)
-					(length 2.54)
-					(name "DIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -730,228 +608,54 @@
 				)
 			)
 		)
-		(symbol "power:+5VP"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5VP"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5VP\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5VP_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5VP_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:GND"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
+	)
+	(junction
+		(at 346.71 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01af0422-b835-452d-a560-080cd7a33580")
 	)
 	(junction
 		(at 241.3 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0a6ae51f-0187-4ac0-85a9-093a348c06e9")
+	)
+	(junction
+		(at 346.71 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0bb23479-52b1-477c-b21d-df9cd2484173")
+	)
+	(junction
+		(at 298.45 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17c52e89-b982-4767-aa54-aff7bcf52da5")
+	)
+	(junction
+		(at 387.35 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "228d53c5-1d8b-4732-8a78-6dd6fc87b942")
+	)
+	(junction
+		(at 298.45 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29052d1b-1ff2-4d4b-920c-cb25289eecac")
+	)
+	(junction
+		(at 387.35 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2efdfafc-2c68-4788-99bf-fd1ba07798c5")
+	)
+	(junction
+		(at 298.45 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33017873-6d07-4daf-8732-4fbb3d7055ef")
 	)
 	(junction
 		(at 146.05 102.87)
@@ -978,6 +682,18 @@
 		(uuid "77d0858c-4374-463b-8e78-9e98f62fed33")
 	)
 	(junction
+		(at 346.71 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85b45120-eeda-4fc0-89c1-68b6c211eee2")
+	)
+	(junction
+		(at 298.45 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "927d3cae-a253-4f3b-ad0e-024c0a25361c")
+	)
+	(junction
 		(at 146.05 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -988,6 +704,36 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be95a7ce-3fcb-4c10-8d5b-a6577c78272a")
+	)
+	(junction
+		(at 387.35 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bef24668-a213-4be8-a42c-d6d356540f9d")
+	)
+	(junction
+		(at 298.45 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf96871d-a335-40d5-808c-f4cd717883a5")
+	)
+	(junction
+		(at 346.71 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c73aeacc-6b74-4c9e-89e0-d7596bbd00bc")
+	)
+	(junction
+		(at 387.35 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb334420-4b91-41ea-9c09-8a0065e876f2")
+	)
+	(junction
+		(at 298.45 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de03ff2e-906e-46b9-9e53-b047859d52e5")
 	)
 	(junction
 		(at 193.04 102.87)
@@ -1001,13 +747,29 @@
 		(color 0 0 0 0)
 		(uuid "e47c57f8-4253-48bd-a84f-6f1bdff59926")
 	)
-	(no_connect
-		(at 365.76 45.72)
-		(uuid "95e21c65-a2d7-4803-bab1-ce20ce65ef46")
+	(junction
+		(at 298.45 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e563f52d-9fc0-4f33-b206-8c4f274347a7")
 	)
-	(no_connect
-		(at 327.66 157.48)
-		(uuid "f5054a6f-0311-4b4d-940f-b6caa19c6586")
+	(junction
+		(at 298.45 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea3dad85-a82f-48d1-b683-c9946368d435")
+	)
+	(junction
+		(at 387.35 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2e4f824-fff5-4240-9a15-ca2800a29c3e")
+	)
+	(junction
+		(at 346.71 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9201f9a-c257-4906-ad74-4ed9e3a9ab92")
 	)
 	(bus_entry
 		(at 82.55 81.28)
@@ -1026,6 +788,24 @@
 			(type default)
 		)
 		(uuid "0b4ad968-a025-4b51-b1ff-4fc9efad3da7")
+	)
+	(bus_entry
+		(at 217.17 194.31)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e9b72ec-5ef5-47f8-baf6-9d54c52e9fa4")
+	)
+	(bus_entry
+		(at 207.01 194.31)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2243fe6d-b49c-4a02-b1bd-289c62606ca0")
 	)
 	(bus_entry
 		(at 82.55 165.1)
@@ -1145,6 +925,15 @@
 		(uuid "a1f78a2c-2ec8-45f2-aa5a-b59692e2025d")
 	)
 	(bus_entry
+		(at 196.85 194.31)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b08522fa-c957-4e4e-ac4f-59d244530356")
+	)
+	(bus_entry
 		(at 82.55 95.25)
 		(size -2.54 -2.54)
 		(stroke
@@ -1192,6 +981,26 @@
 		)
 		(uuid "01d25079-5486-4b2c-9340-b41ff232fa63")
 	)
+	(bus
+		(pts
+			(xy 219.71 196.85) (xy 226.06 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02301ed9-7161-44db-9ef0-7025f7c23f6e")
+	)
+	(wire
+		(pts
+			(xy 387.35 139.7) (xy 387.35 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07191185-7474-4803-9465-b857865a61d2")
+	)
 	(wire
 		(pts
 			(xy 162.56 133.35) (xy 176.53 133.35)
@@ -1204,13 +1013,13 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 154.94) (xy 275.59 143.51)
+			(xy 387.35 127) (xy 387.35 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "09541eba-38e2-4bdc-a509-d16ae7fbec63")
+		(uuid "08c95315-a7c0-4fb9-837e-6244e5add344")
 	)
 	(wire
 		(pts
@@ -1224,43 +1033,13 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 106.68) (xy 358.14 120.65)
+			(xy 346.71 152.4) (xy 342.9 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0c8566c4-f265-4868-8e3f-0f4d842592e8")
-	)
-	(wire
-		(pts
-			(xy 354.33 109.22) (xy 354.33 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c943740-481b-45fe-89d5-2ce97466e654")
-	)
-	(wire
-		(pts
-			(xy 299.72 133.35) (xy 303.53 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e11aadd-d890-40f1-a767-02e44b3a3307")
-	)
-	(wire
-		(pts
-			(xy 365.76 59.69) (xy 365.76 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e1583e0-2571-46e4-8e68-f64281179119")
+		(uuid "0e3603de-c7ab-47e5-ae56-07f3a6fe5ae6")
 	)
 	(wire
 		(pts
@@ -1271,6 +1050,16 @@
 			(type default)
 		)
 		(uuid "0eb83b18-5184-4b8a-a43e-173f882809fb")
+	)
+	(wire
+		(pts
+			(xy 346.71 127) (xy 346.71 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f145916-7678-442e-8288-26c41e82f1d6")
 	)
 	(wire
 		(pts
@@ -1304,16 +1093,6 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 143.51) (xy 358.14 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15af7208-5998-4777-979c-c3f744999660")
-	)
-	(wire
-		(pts
 			(xy 160.02 175.26) (xy 160.02 194.31)
 		)
 		(stroke
@@ -1334,13 +1113,13 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 128.27) (xy 299.72 130.81)
+			(xy 298.45 139.7) (xy 298.45 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1ac68891-0f68-435c-bbed-fd1271bc63ff")
+		(uuid "19290a17-f49a-4f85-817a-b31302a16259")
 	)
 	(wire
 		(pts
@@ -1364,26 +1143,6 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 109.22) (xy 354.33 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f487475-9426-49df-a402-5b12de58ce02")
-	)
-	(wire
-		(pts
-			(xy 298.45 157.48) (xy 302.26 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20dde61c-37d8-49e3-86be-6aa8f9bedb1a")
-	)
-	(wire
-		(pts
 			(xy 144.78 100.33) (xy 146.05 100.33)
 		)
 		(stroke
@@ -1391,16 +1150,6 @@
 			(type default)
 		)
 		(uuid "21345d90-0a86-40be-b060-e592fdd6f009")
-	)
-	(wire
-		(pts
-			(xy 303.53 109.22) (xy 303.53 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21389a54-c13a-48f0-8878-8ae71d67898c")
 	)
 	(wire
 		(pts
@@ -1474,6 +1223,26 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 175.26) (xy 207.01 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26336ba9-f7fd-4df9-acc3-a2862954d3b0")
+	)
+	(wire
+		(pts
+			(xy 270.51 177.8) (xy 284.48 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2910c973-90b3-4d49-b5aa-20425e2bd89f")
+	)
+	(wire
+		(pts
 			(xy 210.82 125.73) (xy 224.79 125.73)
 		)
 		(stroke
@@ -1504,6 +1273,16 @@
 	)
 	(wire
 		(pts
+			(xy 298.45 177.8) (xy 294.64 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f8c6a00-842d-48dc-8ab8-cb7831971acc")
+	)
+	(wire
+		(pts
 			(xy 210.82 49.53) (xy 224.79 49.53)
 		)
 		(stroke
@@ -1511,26 +1290,6 @@
 			(type default)
 		)
 		(uuid "30aa035b-0b4c-4d9e-93ab-eccc693b119c")
-	)
-	(wire
-		(pts
-			(xy 323.85 152.4) (xy 323.85 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30bf1578-7317-41c8-a66b-3a5501b796a5")
-	)
-	(wire
-		(pts
-			(xy 314.96 45.72) (xy 314.96 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3117e23e-fdae-4ccd-9f2f-2186089836a9")
 	)
 	(wire
 		(pts
@@ -1544,6 +1303,26 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 175.26) (xy 217.17 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31dc4013-0506-4f28-8606-875cc1a52cb2")
+	)
+	(wire
+		(pts
+			(xy 346.71 114.3) (xy 342.9 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "325f283a-993f-4167-a459-c269af9c4a2b")
+	)
+	(wire
+		(pts
 			(xy 240.03 64.77) (xy 241.3 64.77)
 		)
 		(stroke
@@ -1554,13 +1333,13 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 120.65) (xy 276.86 130.81)
+			(xy 318.77 114.3) (xy 332.74 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "358861bf-c3ed-49c3-943a-2f5bcf5b2dc0")
+		(uuid "35352c10-ef74-4682-abe8-7f44c191c96f")
 	)
 	(wire
 		(pts
@@ -1584,6 +1363,16 @@
 	)
 	(wire
 		(pts
+			(xy 359.41 114.3) (xy 373.38 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36446268-5aef-4d4b-8768-ef76518d8a1a")
+	)
+	(wire
+		(pts
 			(xy 210.82 95.25) (xy 224.79 95.25)
 		)
 		(stroke
@@ -1601,26 +1390,6 @@
 			(type default)
 		)
 		(uuid "3740b198-7a92-47a8-bdea-a37e5782b098")
-	)
-	(wire
-		(pts
-			(xy 303.53 133.35) (xy 303.53 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3768e12b-5627-4686-a998-daa4db91f60c")
-	)
-	(wire
-		(pts
-			(xy 353.06 45.72) (xy 353.06 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37a0b048-0caf-4687-b2ab-f6c4c0f74e18")
 	)
 	(wire
 		(pts
@@ -1644,16 +1413,6 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 59.69) (xy 353.06 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b0a410e-843c-40f5-a56c-201e89f77ad8")
-	)
-	(wire
-		(pts
 			(xy 162.56 95.25) (xy 176.53 95.25)
 		)
 		(stroke
@@ -1674,13 +1433,13 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 104.14) (xy 299.72 106.68)
+			(xy 318.77 152.4) (xy 332.74 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3e636dd0-3ff9-4a75-b6c2-94553d0f9ef6")
+		(uuid "3ddbcd09-eac6-4cec-90ad-7b8f608a1d8f")
 	)
 	(wire
 		(pts
@@ -1704,6 +1463,16 @@
 	)
 	(wire
 		(pts
+			(xy 318.77 88.9) (xy 332.74 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fb1ce26-284a-42b7-be6d-770dad24fd0a")
+	)
+	(wire
+		(pts
 			(xy 191.77 67.31) (xy 193.04 67.31)
 		)
 		(stroke
@@ -1711,6 +1480,16 @@
 			(type default)
 		)
 		(uuid "40a421de-f84c-48c5-81ae-0999c9a15ff9")
+	)
+	(wire
+		(pts
+			(xy 346.71 127) (xy 342.9 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40d58ea8-82ee-4ace-bbc9-0bc1eef27487")
 	)
 	(wire
 		(pts
@@ -1731,16 +1510,6 @@
 			(type default)
 		)
 		(uuid "439d1e0d-e785-4e69-afad-3912c107b736")
-	)
-	(wire
-		(pts
-			(xy 328.93 109.22) (xy 328.93 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4460fb18-a41d-4493-be3d-e257422a1eb8")
 	)
 	(wire
 		(pts
@@ -1784,6 +1553,16 @@
 	)
 	(wire
 		(pts
+			(xy 298.45 152.4) (xy 294.64 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49b4fba6-0828-4675-8423-857e3414be7f")
+	)
+	(wire
+		(pts
 			(xy 162.56 128.27) (xy 176.53 128.27)
 		)
 		(stroke
@@ -1791,6 +1570,26 @@
 			(type default)
 		)
 		(uuid "4ea25c84-36b1-4674-839a-ee1f5a008bfb")
+	)
+	(wire
+		(pts
+			(xy 298.45 127) (xy 298.45 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50d333b2-519a-453c-bf20-d4216083087e")
+	)
+	(wire
+		(pts
+			(xy 359.41 127) (xy 373.38 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51fbdab4-5575-4f15-b587-a066155e0000")
 	)
 	(wire
 		(pts
@@ -1804,13 +1603,13 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 106.68) (xy 358.14 106.68)
+			(xy 387.35 114.3) (xy 387.35 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "53590632-a95b-41c1-abf2-c0c8bc22b6f6")
+		(uuid "53f7da97-412d-47f5-9957-f9e99622d5e1")
 	)
 	(wire
 		(pts
@@ -1834,13 +1633,13 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 106.68) (xy 271.78 106.68)
+			(xy 270.51 165.1) (xy 284.48 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "57538449-de2f-4635-b6e0-8f4c4b67ae84")
+		(uuid "5750e2a9-3f13-4aa8-9611-f70b65142a5c")
 	)
 	(wire
 		(pts
@@ -1852,6 +1651,26 @@
 		)
 		(uuid "576d7219-0587-45a2-b6a8-6b60cf6c2a8c")
 	)
+	(wire
+		(pts
+			(xy 346.71 190.5) (xy 359.41 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57ea937c-7bc2-49c5-b879-60bde4ab2e4c")
+	)
+	(wire
+		(pts
+			(xy 387.35 152.4) (xy 383.54 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5840fa24-5883-4e49-aa54-711675debbbe")
+	)
 	(bus
 		(pts
 			(xy 80.01 106.68) (xy 80.01 120.65)
@@ -1862,25 +1681,25 @@
 		)
 		(uuid "58c436ab-e1d6-4ed8-989e-869b4bbdbd3f")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 365.76 45.72) (xy 365.76 52.07)
+			(xy 209.55 196.85) (xy 219.71 196.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "59acb045-8ded-48cd-a069-3e994200c092")
+		(uuid "5a985ad7-e38a-45f5-ba85-24280e8efe1a")
 	)
 	(wire
 		(pts
-			(xy 327.66 59.69) (xy 327.66 66.04)
+			(xy 387.35 114.3) (xy 383.54 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5acf03dc-9ba3-4b09-b2bb-f3c207775020")
+		(uuid "5b589693-8bb2-4a42-b5ce-93c7665afd21")
 	)
 	(wire
 		(pts
@@ -1904,6 +1723,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 127) (xy 284.48 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d140679-024c-4948-9f77-b51277cac919")
+	)
+	(wire
+		(pts
 			(xy 115.57 102.87) (xy 129.54 102.87)
 		)
 		(stroke
@@ -1911,16 +1740,6 @@
 			(type default)
 		)
 		(uuid "5e2d9e9b-dc63-49bf-9911-a5f81eff4be8")
-	)
-	(wire
-		(pts
-			(xy 327.66 45.72) (xy 327.66 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ed656ea-b181-44d9-9956-0b39a40f0307")
 	)
 	(wire
 		(pts
@@ -1954,16 +1773,6 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 59.69) (xy 314.96 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "625e5663-fb46-4f95-a4e9-d3c45a556601")
-	)
-	(wire
-		(pts
 			(xy 162.56 85.09) (xy 176.53 85.09)
 		)
 		(stroke
@@ -1974,23 +1783,23 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 109.22) (xy 332.74 111.76)
+			(xy 298.45 101.6) (xy 298.45 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "63fbb420-b8f1-4bbb-88a8-446d8977fbd8")
+		(uuid "649a92dc-aec1-43f2-bd55-1d78d722ac89")
 	)
 	(wire
 		(pts
-			(xy 325.12 104.14) (xy 325.12 106.68)
+			(xy 196.85 175.26) (xy 196.85 194.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "64b267c5-2426-4c29-aa13-4155b283e4fc")
+		(uuid "651878d8-8745-4e9e-b860-c114ef8b5ce8")
 	)
 	(wire
 		(pts
@@ -2004,6 +1813,16 @@
 	)
 	(wire
 		(pts
+			(xy 387.35 101.6) (xy 387.35 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65a5cf92-14ea-49e0-a73e-f42449e59744")
+	)
+	(wire
+		(pts
 			(xy 191.77 102.87) (xy 193.04 102.87)
 		)
 		(stroke
@@ -2014,13 +1833,13 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 130.81) (xy 307.34 130.81)
+			(xy 270.51 101.6) (xy 284.48 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6716c41d-d66a-4f63-a5bd-ca35799039a1")
+		(uuid "680473ef-52d2-4c0b-b6ab-abc76d1c531b")
 	)
 	(wire
 		(pts
@@ -2054,16 +1873,6 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 120.65) (xy 276.86 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c4baa83-a1df-4e04-9090-e31a99fc49e0")
-	)
-	(wire
-		(pts
 			(xy 147.32 175.26) (xy 147.32 194.31)
 		)
 		(stroke
@@ -2084,6 +1893,26 @@
 	)
 	(wire
 		(pts
+			(xy 387.35 88.9) (xy 383.54 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f9540ef-2307-4353-a036-31b012c365f7")
+	)
+	(wire
+		(pts
+			(xy 346.71 88.9) (xy 342.9 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71ef7c5b-a09d-416b-9dba-7c3a00b83f17")
+	)
+	(wire
+		(pts
 			(xy 115.57 49.53) (xy 129.54 49.53)
 		)
 		(stroke
@@ -2091,6 +1920,16 @@
 			(type default)
 		)
 		(uuid "7205530d-b86e-4fff-a93a-3a732b02625b")
+	)
+	(wire
+		(pts
+			(xy 346.71 101.6) (xy 342.9 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72a70516-2604-44a3-adb5-74817547b05b")
 	)
 	(wire
 		(pts
@@ -2104,13 +1943,13 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 45.72) (xy 302.26 52.07)
+			(xy 298.45 139.7) (xy 294.64 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "73876f2b-80f7-426b-85c9-38bc370f76f6")
+		(uuid "747eb960-44f0-46bb-adc2-b99bfdc50860")
 	)
 	(wire
 		(pts
@@ -2124,13 +1963,23 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 59.69) (xy 340.36 66.04)
+			(xy 298.45 88.9) (xy 298.45 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "79ad9ea0-a7d9-499f-bb94-19c972e55863")
+		(uuid "75062fa2-1096-44d7-b879-4bdb61903fbe")
+	)
+	(wire
+		(pts
+			(xy 318.77 101.6) (xy 332.74 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79049138-9252-40b8-ac63-2850ca981336")
 	)
 	(wire
 		(pts
@@ -2182,6 +2031,16 @@
 		)
 		(uuid "7f786306-46cd-47ca-ade1-0499aa5aa0ab")
 	)
+	(wire
+		(pts
+			(xy 387.35 101.6) (xy 383.54 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fca8528-ff97-4925-af34-61769adb9da3")
+	)
 	(bus
 		(pts
 			(xy 111.76 196.85) (xy 124.46 196.85)
@@ -2224,73 +2083,43 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 133.35) (xy 328.93 133.35)
+			(xy 359.41 139.7) (xy 373.38 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "869afe85-73de-4eab-81a1-b9d3139380e7")
+		(uuid "87b418b6-e34f-4d02-a7f1-6bc26de9405a")
+	)
+	(bus
+		(pts
+			(xy 199.39 196.85) (xy 209.55 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a2f794b-b83b-4861-9ef4-0f17800b072e")
 	)
 	(wire
 		(pts
-			(xy 281.94 133.35) (xy 281.94 135.89)
+			(xy 346.71 139.7) (xy 342.9 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8c065bfd-1038-4978-adf8-c0adfc7270fe")
+		(uuid "8b19588a-adbf-419d-aa93-2a1e56a17872")
 	)
 	(wire
 		(pts
-			(xy 328.93 133.35) (xy 328.93 130.81)
+			(xy 346.71 88.9) (xy 346.71 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8cf35787-3101-4bc0-962f-b43234d3b7be")
-	)
-	(wire
-		(pts
-			(xy 306.07 157.48) (xy 306.07 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8dd56d8d-a819-4c4d-8ee8-d7e0bb9a0540")
-	)
-	(wire
-		(pts
-			(xy 276.86 130.81) (xy 281.94 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fabdd37-406e-49a6-b0d0-9c60fa3b3231")
-	)
-	(wire
-		(pts
-			(xy 354.33 130.81) (xy 358.14 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95d5f851-4f39-4186-aa24-d16484872258")
-	)
-	(wire
-		(pts
-			(xy 323.85 157.48) (xy 327.66 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96556b57-b7c0-4cf3-bfcd-96133c2de44d")
+		(uuid "8db7847b-148b-459d-8c47-42698b418fd1")
 	)
 	(wire
 		(pts
@@ -2301,26 +2130,6 @@
 			(type default)
 		)
 		(uuid "9b454e5f-db1a-46ed-8b49-794e473992d7")
-	)
-	(wire
-		(pts
-			(xy 280.67 154.94) (xy 275.59 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cf18e30-a39e-4442-8b3a-a9cb17a71423")
-	)
-	(wire
-		(pts
-			(xy 302.26 157.48) (xy 302.26 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e069dc8-e937-4002-b37f-3a9229879d00")
 	)
 	(wire
 		(pts
@@ -2374,16 +2183,6 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 109.22) (xy 303.53 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1813674-8409-4b66-a63f-e586d083f383")
-	)
-	(wire
-		(pts
 			(xy 210.82 57.15) (xy 224.79 57.15)
 		)
 		(stroke
@@ -2394,23 +2193,13 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 143.51) (xy 358.14 143.51)
+			(xy 270.51 152.4) (xy 284.48 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a37edbbd-2ba9-4a85-b968-e24847635fa1")
-	)
-	(wire
-		(pts
-			(xy 303.53 106.68) (xy 307.34 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5ae15f0-97ca-4db9-aa64-92c69d038b51")
+		(uuid "a706677d-18b2-4e2d-b37e-6a21bd4e77d5")
 	)
 	(wire
 		(pts
@@ -2424,26 +2213,6 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 157.48) (xy 280.67 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8670cac-5285-4735-8bcf-a5fc0aecc5d4")
-	)
-	(wire
-		(pts
-			(xy 328.93 106.68) (xy 332.74 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8c4c6fc-ed53-4aa9-9ae2-c34de467026e")
-	)
-	(wire
-		(pts
 			(xy 115.57 85.09) (xy 129.54 85.09)
 		)
 		(stroke
@@ -2451,16 +2220,6 @@
 			(type default)
 		)
 		(uuid "aade1ccd-ebea-4cb3-96d5-dee4ae45f78a")
-	)
-	(wire
-		(pts
-			(xy 307.34 109.22) (xy 307.34 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aca297c9-d25e-49d0-9984-3a4d2203af88")
 	)
 	(wire
 		(pts
@@ -2474,23 +2233,23 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 133.35) (xy 307.34 135.89)
+			(xy 346.71 101.6) (xy 346.71 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "affcfc4e-a58c-4892-a430-5900ab1282a0")
+		(uuid "b02f3990-a5a8-4880-81f2-92127264212d")
 	)
 	(wire
 		(pts
-			(xy 340.36 45.72) (xy 340.36 52.07)
+			(xy 298.45 190.5) (xy 311.15 190.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b0fb28a6-1c8c-47ff-a9bf-5de7d28d0b7a")
+		(uuid "b1881e4c-c7d3-41e6-bdab-3e709a436cfc")
 	)
 	(wire
 		(pts
@@ -2554,16 +2313,6 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 109.22) (xy 281.94 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b75bee09-efaf-46fd-a84e-d2479b9242f7")
-	)
-	(wire
-		(pts
 			(xy 82.55 137.16) (xy 88.9 137.16)
 		)
 		(stroke
@@ -2594,13 +2343,33 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 154.94) (xy 306.07 154.94)
+			(xy 298.45 127) (xy 294.64 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bd7e4ba2-d862-4ffa-8af2-635cc33b9a85")
+		(uuid "bcc3d9a1-52f1-4ab3-aa49-88620ce22557")
+	)
+	(wire
+		(pts
+			(xy 346.71 152.4) (xy 346.71 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd3adada-0779-4975-8345-7968cbc3c1c7")
+	)
+	(wire
+		(pts
+			(xy 298.45 165.1) (xy 294.64 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdb792ab-3a6c-4c34-a84b-7bea97c42828")
 	)
 	(wire
 		(pts
@@ -2624,13 +2393,43 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 152.4) (xy 298.45 154.94)
+			(xy 270.51 139.7) (xy 284.48 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c2ea6470-281a-4884-bf9f-1e62f04a0eef")
+		(uuid "c101146d-6539-48a5-8626-a1d8d220bed0")
+	)
+	(wire
+		(pts
+			(xy 387.35 139.7) (xy 383.54 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1528078-d8b7-43da-83c3-5017a055c1d4")
+	)
+	(wire
+		(pts
+			(xy 270.51 88.9) (xy 284.48 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2c53ca2-2f46-4f88-8d48-d5908f8855bd")
+	)
+	(wire
+		(pts
+			(xy 318.77 127) (xy 332.74 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c32970b6-f535-43c9-ae10-ebfe585db2a6")
 	)
 	(bus
 		(pts
@@ -2684,6 +2483,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 190.5) (xy 284.48 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca171dff-b1a4-48fc-b2d1-a7ef9681ca90")
+	)
+	(wire
+		(pts
 			(xy 210.82 138.43) (xy 224.79 138.43)
 		)
 		(stroke
@@ -2691,6 +2500,16 @@
 			(type default)
 		)
 		(uuid "ca47c8d0-1d93-482d-8b0f-e1b714b6b02d")
+	)
+	(wire
+		(pts
+			(xy 270.51 114.3) (xy 284.48 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb707dcb-cbed-497e-b8d8-5360c2c7cebd")
 	)
 	(wire
 		(pts
@@ -2704,13 +2523,13 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 133.35) (xy 354.33 130.81)
+			(xy 387.35 152.4) (xy 387.35 190.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cce173f8-cf99-4c73-b90a-b3d69dde4537")
+		(uuid "cd045995-1771-4a7f-9980-91870e854a2c")
 	)
 	(wire
 		(pts
@@ -2742,6 +2561,16 @@
 		)
 		(uuid "ceea2608-9e50-4995-9a09-01136d880091")
 	)
+	(wire
+		(pts
+			(xy 298.45 165.1) (xy 298.45 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf2b2f91-c249-4ff4-9def-7e018ba6244f")
+	)
 	(bus
 		(pts
 			(xy 137.16 196.85) (xy 149.86 196.85)
@@ -2754,6 +2583,16 @@
 	)
 	(wire
 		(pts
+			(xy 298.45 101.6) (xy 294.64 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0a3b180-ecd4-4ad0-bdc7-8998694cd8a8")
+	)
+	(wire
+		(pts
 			(xy 115.57 138.43) (xy 129.54 138.43)
 		)
 		(stroke
@@ -2761,16 +2600,6 @@
 			(type default)
 		)
 		(uuid "d280c34f-7c7d-42a3-9592-6e86ba754d19")
-	)
-	(wire
-		(pts
-			(xy 350.52 104.14) (xy 350.52 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2ed50d4-9180-4db3-942b-0ba5f08ff410")
 	)
 	(wire
 		(pts
@@ -2794,6 +2623,16 @@
 	)
 	(wire
 		(pts
+			(xy 298.45 114.3) (xy 294.64 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d40de15a-d7c7-43f4-be90-cb2c885e0716")
+	)
+	(wire
+		(pts
 			(xy 241.3 67.31) (xy 251.46 67.31)
 		)
 		(stroke
@@ -2814,6 +2653,16 @@
 	)
 	(wire
 		(pts
+			(xy 387.35 88.9) (xy 387.35 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d62e034c-4e3b-4f41-80ff-248f5125b913")
+	)
+	(wire
+		(pts
 			(xy 193.04 100.33) (xy 193.04 102.87)
 		)
 		(stroke
@@ -2821,6 +2670,16 @@
 			(type default)
 		)
 		(uuid "d6ffe7ef-b93e-49e2-95c7-c521dfaf89c0")
+	)
+	(wire
+		(pts
+			(xy 298.45 88.9) (xy 294.64 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8cd85b0-8f48-4f30-bfe9-c320021c8fe1")
 	)
 	(wire
 		(pts
@@ -2854,6 +2713,26 @@
 	)
 	(wire
 		(pts
+			(xy 359.41 152.4) (xy 373.38 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da931e4b-d664-4f07-9b43-8a71cd2e77f8")
+	)
+	(wire
+		(pts
+			(xy 359.41 88.9) (xy 373.38 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbfb30f5-cb69-4c5b-acd8-cfa2c1d64948")
+	)
+	(wire
+		(pts
 			(xy 115.57 123.19) (xy 129.54 123.19)
 		)
 		(stroke
@@ -2874,13 +2753,23 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 130.81) (xy 332.74 130.81)
+			(xy 298.45 152.4) (xy 298.45 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e3deb177-77bf-4037-af62-09a27d957683")
+		(uuid "e13a8d66-f13f-46cc-8394-8dec2bffb051")
+	)
+	(wire
+		(pts
+			(xy 298.45 177.8) (xy 298.45 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e26a3bed-a16f-4d80-b61b-01bd89f8a3f7")
 	)
 	(bus
 		(pts
@@ -2904,13 +2793,13 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 133.35) (xy 332.74 135.89)
+			(xy 387.35 190.5) (xy 400.05 190.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e5b977c8-6e8b-4a84-a42e-b63e887d9703")
+		(uuid "e527a7e6-8462-4ddb-9eca-a08d4891c408")
 	)
 	(wire
 		(pts
@@ -2954,6 +2843,16 @@
 	)
 	(wire
 		(pts
+			(xy 346.71 139.7) (xy 346.71 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9f45d01-e7fa-45bd-b464-ad9b0a9db69c")
+	)
+	(wire
+		(pts
 			(xy 115.57 59.69) (xy 129.54 59.69)
 		)
 		(stroke
@@ -2961,16 +2860,6 @@
 			(type default)
 		)
 		(uuid "ea0b22e1-24e6-42da-875b-c8c2e989e597")
-	)
-	(wire
-		(pts
-			(xy 325.12 109.22) (xy 328.93 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea299961-a729-4cc2-863b-ea521f376fd3")
 	)
 	(wire
 		(pts
@@ -2991,6 +2880,16 @@
 			(type default)
 		)
 		(uuid "ebd71c10-8b8d-4570-bce0-bd7070d15a32")
+	)
+	(wire
+		(pts
+			(xy 346.71 114.3) (xy 346.71 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edaa471d-22b0-4520-b7fa-4d74b2015275")
 	)
 	(wire
 		(pts
@@ -3034,6 +2933,16 @@
 	)
 	(wire
 		(pts
+			(xy 318.77 139.7) (xy 332.74 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0ce50b5-424e-4fa2-bb46-0b70ff896794")
+	)
+	(wire
+		(pts
 			(xy 210.82 52.07) (xy 224.79 52.07)
 		)
 		(stroke
@@ -3054,23 +2963,13 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 59.69) (xy 302.26 66.04)
+			(xy 387.35 127) (xy 383.54 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f2d2ad41-3d9a-4da1-90f1-2566d4def3d7")
-	)
-	(wire
-		(pts
-			(xy 325.12 128.27) (xy 325.12 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f493453c-2373-4256-b5a6-60b8b902b776")
+		(uuid "f4b69ea2-35c1-4d09-8acb-9918ca0d7e15")
 	)
 	(wire
 		(pts
@@ -3104,6 +3003,16 @@
 	)
 	(wire
 		(pts
+			(xy 359.41 101.6) (xy 373.38 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6e7fc79-dcea-49df-a1de-b4ad10df8e78")
+	)
+	(wire
+		(pts
 			(xy 162.56 59.69) (xy 176.53 59.69)
 		)
 		(stroke
@@ -3134,16 +3043,6 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 128.27) (xy 350.52 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f969dc7b-0547-45bc-bc92-a0893ea56b23")
-	)
-	(wire
-		(pts
 			(xy 172.72 175.26) (xy 172.72 194.31)
 		)
 		(stroke
@@ -3154,17 +3053,17 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 133.35) (xy 354.33 133.35)
+			(xy 298.45 190.5) (xy 294.64 190.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fdd7eedc-54a5-40cc-8375-89e391d21418")
+		(uuid "fc47f872-8dd8-40c3-96f1-e0b5b339bf3b")
 	)
 	(bus
 		(pts
-			(xy 187.96 196.85) (xy 226.06 196.85)
+			(xy 187.96 196.85) (xy 199.39 196.85)
 		)
 		(stroke
 			(width 0)
@@ -3172,25 +3071,15 @@
 		)
 		(uuid "fea91f10-dc8d-409d-ada4-59911ebfcc45")
 	)
-	(text "Neopixel power bypass"
-		(exclude_from_sim no)
-		(at 327.152 35.306 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
+	(wire
+		(pts
+			(xy 298.45 114.3) (xy 298.45 127)
 		)
-		(uuid "06c2dce7-85ee-4a95-8414-68c26a39d249")
-	)
-	(text "Structural support"
-		(exclude_from_sim no)
-		(at 366.014 43.434 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(uuid "9210ef3a-7387-4cea-8cae-feca4eaae50b")
+		(uuid "ff01b12e-6f55-4800-9dc6-3fbfa5184d4e")
 	)
 	(label "LED_CS4"
 		(at 162.56 130.81 0)
@@ -3202,6 +3091,28 @@
 			(justify left bottom)
 		)
 		(uuid "02b0d608-bbba-4291-a38f-526c94259707")
+	)
+	(label "LED_SW4"
+		(at 360.68 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "051b8522-5533-49f6-9742-3af90ca334ce")
+	)
+	(label "LED_SW3"
+		(at 271.78 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "08a511c3-bbf9-4266-8545-5ade9adb267c")
 	)
 	(label "LED_SW0"
 		(at 147.32 67.31 0)
@@ -3235,6 +3146,17 @@
 			(justify left bottom)
 		)
 		(uuid "0f991ed3-d95c-499a-b5d3-a38f51d1789e")
+	)
+	(label "LED_SW5"
+		(at 360.68 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1139ba3e-3d70-4f47-9258-666f8db971af")
 	)
 	(label "LED_CS7"
 		(at 115.57 138.43 0)
@@ -3279,6 +3201,17 @@
 			(justify left bottom)
 		)
 		(uuid "1b25a82b-ee72-4c89-95ba-8142b0fd4555")
+	)
+	(label "LED_SW0"
+		(at 320.04 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1babdb38-540a-4c36-8c22-5edc52191652")
 	)
 	(label "LED_CS2"
 		(at 162.56 90.17 0)
@@ -3345,6 +3278,17 @@
 			(justify left bottom)
 		)
 		(uuid "298de571-7123-4c72-af27-44d3c7215714")
+	)
+	(label "LED_SW5"
+		(at 320.04 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b3b4f23-c351-42d5-8a07-7d4c369c8201")
 	)
 	(label "LED_CS1"
 		(at 210.82 87.63 0)
@@ -3433,6 +3377,17 @@
 			(justify left bottom)
 		)
 		(uuid "3aae80e7-5518-4127-bd50-12d5a0c5f3a1")
+	)
+	(label "LED_SW2"
+		(at 271.78 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "44b8be27-1149-432b-a0fe-87eaa4c20005")
 	)
 	(label "LED_SW3"
 		(at 82.55 95.25 0)
@@ -3555,6 +3510,17 @@
 		)
 		(uuid "5a009183-3ebd-4b3b-8ecd-f2df9cfec75f")
 	)
+	(label "LED_CS8"
+		(at 196.85 194.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a494f67-526a-4507-a5d5-5cadb4f551f2")
+	)
 	(label "LED_CS7"
 		(at 162.56 102.87 0)
 		(fields_autoplaced yes)
@@ -3576,6 +3542,17 @@
 			(justify left bottom)
 		)
 		(uuid "5c1190d2-6307-4525-b3bc-2ee78622feb0")
+	)
+	(label "LED_SW7"
+		(at 271.78 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "630c9adc-9a42-41f4-9ebc-717d72e5bc2c")
 	)
 	(label "LED_CS2"
 		(at 210.82 125.73 0)
@@ -3643,6 +3620,17 @@
 		)
 		(uuid "6c72a2c7-d6e5-40f8-9049-990c43ce9b5b")
 	)
+	(label "LED_CS10"
+		(at 388.62 190.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6fe79535-ba70-4646-9198-73fe6c720dd4")
+	)
 	(label "LED_CS7"
 		(at 115.57 67.31 0)
 		(fields_autoplaced yes)
@@ -3664,6 +3652,17 @@
 			(justify left bottom)
 		)
 		(uuid "72346855-c0a0-497a-a20d-9779861106ef")
+	)
+	(label "LED_SW4"
+		(at 320.04 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "74413424-a1ed-42c5-b2da-3db99417a84a")
 	)
 	(label "LED_CS3"
 		(at 210.82 57.15 0)
@@ -3742,6 +3741,17 @@
 		)
 		(uuid "7fbea1f4-c848-434d-b46f-53d8b218229d")
 	)
+	(label "LED_CS9"
+		(at 207.01 194.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "80df767e-fc1a-4c40-b91a-72928daade16")
+	)
 	(label "LED_CS6"
 		(at 210.82 64.77 0)
 		(fields_autoplaced yes)
@@ -3763,6 +3773,17 @@
 			(justify left bottom)
 		)
 		(uuid "85065103-1a56-4104-b718-3b3d1e2f5878")
+	)
+	(label "LED_SW5"
+		(at 271.78 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "857df718-09c6-41f7-814e-b9347216e10c")
 	)
 	(label "LED_CS0"
 		(at 115.57 120.65 0)
@@ -3874,6 +3895,28 @@
 		)
 		(uuid "a0aaae43-af04-4af7-94c1-ee26cfe06acd")
 	)
+	(label "LED_SW3"
+		(at 360.68 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a2146098-e82d-4238-af75-31783ce98b6f")
+	)
+	(label "LED_SW1"
+		(at 271.78 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a39d5785-a83a-4257-a80c-6c66f4f0b2b8")
+	)
 	(label "LED_CS2"
 		(at 115.57 54.61 0)
 		(fields_autoplaced yes)
@@ -3884,6 +3927,17 @@
 			(justify left bottom)
 		)
 		(uuid "a487a970-634e-4f47-8e28-3c59e105b95d")
+	)
+	(label "LED_SW4"
+		(at 271.78 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5030626-b177-493f-b685-322be75a1266")
 	)
 	(label "LED_SW5"
 		(at 82.55 123.19 0)
@@ -3929,6 +3983,17 @@
 		)
 		(uuid "a9ade64a-7467-4597-ad6a-a9f00a710860")
 	)
+	(label "LED_CS8"
+		(at 299.72 190.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac05086b-7f9d-448b-9c44-b725b0febf66")
+	)
 	(label "LED_CS0"
 		(at 96.52 194.31 0)
 		(fields_autoplaced yes)
@@ -3973,6 +4038,17 @@
 		)
 		(uuid "b1663d41-4f60-4fc7-923a-ca61e4b694df")
 	)
+	(label "LED_SW1"
+		(at 360.68 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b25617e7-7f92-4d0d-bb1a-f040e879f42c")
+	)
 	(label "LED_CS3"
 		(at 115.57 128.27 0)
 		(fields_autoplaced yes)
@@ -3983,6 +4059,17 @@
 			(justify left bottom)
 		)
 		(uuid "b556f3dd-706a-4486-b012-02dca6d93bbb")
+	)
+	(label "LED_SW8"
+		(at 271.78 190.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b67d83d6-a259-45fa-b433-192ec06ad5f9")
 	)
 	(label "LED_CS0"
 		(at 210.82 120.65 0)
@@ -4017,6 +4104,28 @@
 		)
 		(uuid "b9be6c3c-3923-43ee-9fb3-dcc00276679a")
 	)
+	(label "LED_SW1"
+		(at 320.04 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "be5b9588-45b2-4a85-87fc-642e6a36d1dc")
+	)
+	(label "LED_SW3"
+		(at 320.04 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "be7e1b45-576f-4e46-b595-c495807f6d11")
+	)
 	(label "LED_CS5"
 		(at 115.57 62.23 0)
 		(fields_autoplaced yes)
@@ -4039,6 +4148,17 @@
 		)
 		(uuid "c9d15673-1f55-4caf-a11b-fe0d7b4721f4")
 	)
+	(label "LED_SW0"
+		(at 271.78 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca8c1611-b785-4e27-b9f5-144e71ac8d48")
+	)
 	(label "LED_CS2"
 		(at 115.57 125.73 0)
 		(fields_autoplaced yes)
@@ -4049,6 +4169,17 @@
 			(justify left bottom)
 		)
 		(uuid "cb615b84-18e7-4339-8da6-de14d661428d")
+	)
+	(label "LED_SW2"
+		(at 320.04 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ccf3f526-ef15-448a-bc9d-e1cd8a260a7f")
 	)
 	(label "LED_SW6"
 		(at 147.32 138.43 0)
@@ -4082,6 +4213,17 @@
 			(justify left bottom)
 		)
 		(uuid "cebd5b84-bcda-4935-8116-fd3f0e9b8fec")
+	)
+	(label "LED_CS10"
+		(at 217.17 194.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d0795607-d98e-4d9f-a47b-902c95c350e7")
 	)
 	(label "LED_CS1"
 		(at 162.56 123.19 0)
@@ -4160,6 +4302,17 @@
 		)
 		(uuid "dbecc99c-7f06-4314-bd2a-d15b1e8a8182")
 	)
+	(label "LED_SW0"
+		(at 360.68 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dcf7a94b-0526-44ca-8357-9fcafb72c124")
+	)
 	(label "LED_CS2"
 		(at 162.56 125.73 0)
 		(fields_autoplaced yes)
@@ -4193,6 +4346,17 @@
 		)
 		(uuid "e3a4a0d3-ada6-4b66-a4bd-968bde233394")
 	)
+	(label "LED_SW6"
+		(at 271.78 165.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e557e88d-7fbc-48fa-b863-415b97f35c85")
+	)
 	(label "LED_CS3"
 		(at 210.82 128.27 0)
 		(fields_autoplaced yes)
@@ -4203,6 +4367,28 @@
 			(justify left bottom)
 		)
 		(uuid "e5e9a37d-50b3-40b8-9f35-f7998187000d")
+	)
+	(label "LED_CS9"
+		(at 347.98 190.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6ca9adb-b237-41ae-ba5b-7051899b29de")
+	)
+	(label "LED_SW2"
+		(at 360.68 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e763aa80-ae2d-45a7-b640-6859931ef0eb")
 	)
 	(label "LED_CS1"
 		(at 162.56 87.63 0)
@@ -4294,95 +4480,34 @@
 		)
 		(uuid "69c0a29d-b18e-41f4-a2d0-5cfd7dc6d17c")
 	)
-	(hierarchical_label "NEOPIXEL"
-		(shape input)
-		(at 271.78 106.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e64ee009-f969-466e-b902-32a37c9bd4c8")
-	)
 	(symbol
-		(lib_id "power:GND")
-		(at 365.76 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0171a5a1-bf4c-4684-b94b-3937c92597da")
-		(property "Reference" "#PWR071"
-			(at 365.76 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 361.95 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 365.76 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 365.76 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 365.76 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "79a5182c-4eff-4425-8afb-9a264292d32f")
-		)
-		(instances
-			(project "SevenSegment"
-				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "#PWR071")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5VP")
-		(at 314.96 45.72 0)
+		(lib_id "LCSC:whiteLEDSMD")
+		(at 289.56 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "01defb42-7da3-4099-b5dc-ba57c9ac456e")
-		(property "Reference" "#PWR06"
-			(at 314.96 49.53 0)
+		(uuid "0d5f9f5b-8f82-4034-a4d9-f69cc3c9015c")
+		(property "Reference" "LED9"
+			(at 290.83 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805W"
+			(at 290.83 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:LED0805-R-RD"
+			(at 289.56 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4390,16 +4515,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5VP"
-			(at 314.96 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 314.96 45.72 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_white-0805_C34499.html"
+			(at 289.56 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4407,8 +4524,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 314.96 45.72 0)
+		(property "Description" ""
+			(at 289.56 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4416,73 +4533,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5VP\""
-			(at 314.96 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b1780d86-50ef-476d-bfea-2be8829d7e84")
-		)
-		(instances
-			(project "SevenSegment"
-				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 332.74 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "03ceee99-8cea-4dd2-b581-0e444f452721")
-		(property "Reference" "#PWR050"
-			(at 332.74 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 328.93 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 332.74 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 332.74 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 332.74 111.76 0)
+		(property "LCSC Part" "C34499"
+			(at 289.56 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4491,143 +4543,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "f5b4427f-b2c2-4ba1-b0fa-a68afbe6789d")
+			(uuid "9fc8d488-75dd-4b1e-aed3-7def5f0dff8c")
+		)
+		(pin "2"
+			(uuid "63526c71-dcea-470a-a98b-92d33b7e5ae6")
 		)
 		(instances
-			(project "SevenSegment"
+			(project "MainBoard"
 				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5VP")
-		(at 350.52 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "03cfc7ac-5b46-4982-aa6a-69180b5eacf6")
-		(property "Reference" "#PWR060"
-			(at 350.52 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5VP"
-			(at 350.52 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 350.52 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 350.52 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5VP\""
-			(at 350.52 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e8c102bf-6cff-4620-92fe-8bfb8a5f9c65")
-		)
-		(instances
-			(project "SevenSegment"
-				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 307.34 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0ee44039-17c7-4063-ab68-5890f647a7d6")
-		(property "Reference" "#PWR049"
-			(at 307.34 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 303.53 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 307.34 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 307.34 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 307.34 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "05b1590e-58bc-4758-b959-7780c8abb30a")
-		)
-		(instances
-			(project "SevenSegment"
-				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "#PWR049")
+					(reference "LED9")
 					(unit 1)
 				)
 			)
@@ -4763,118 +4687,33 @@
 		)
 	)
 	(symbol
-		(lib_id "LCSC:XL-5050RGBC-WS2812B")
-		(at 314.96 156.21 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "17b8d4b4-88e6-424c-850d-3145a11bc256")
-		(property "Reference" "LED8"
-			(at 314.96 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SKC6812RGBW-BW-B"
-			(at 314.96 164.846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LCSC:LED-SMD_4P-L5.0-W5.0-BL_XL-5050RGBC"
-			(at 314.96 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 314.96 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 314.96 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 314.96 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" "90"
-			(at 314.96 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5380878"
-			(at 314.96 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "9237512e-3ac6-4a47-8ce4-a478e747c26f")
-		)
-		(pin "3"
-			(uuid "1be1705c-25a9-4efd-901f-b133fd9e4e08")
-		)
-		(pin "2"
-			(uuid "a8436c8e-e839-4c8d-b69f-e698e27e1db4")
-		)
-		(pin "1"
-			(uuid "0ab5f15c-3265-4cc1-af59-19b611a2f8b7")
-		)
-		(instances
-			(project "SevenSegment"
-				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "LED8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5VP")
-		(at 350.52 104.14 0)
+		(lib_id "LCSC:whiteLEDSMD")
+		(at 337.82 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "267e3382-fe19-4f88-afbd-1b131f381a94")
-		(property "Reference" "#PWR047"
-			(at 350.52 107.95 0)
+		(uuid "18595946-e1dd-49c8-9530-67acc41ce63a")
+		(property "Reference" "LED10"
+			(at 339.09 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805W"
+			(at 339.09 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:LED0805-R-RD"
+			(at 337.82 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4882,195 +4721,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5VP"
-			(at 350.52 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 350.52 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 350.52 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5VP\""
-			(at 350.52 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "128d1951-08bc-4c72-bb40-e83f9c5e4d5b")
-		)
-		(instances
-			(project "SevenSegment"
-				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 314.96 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "313952b9-99e2-4798-8778-a31fc744338b")
-		(property "Reference" "C21"
-			(at 317.881 54.7116 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 317.881 57.023 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 315.9252 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 314.96 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 314.96 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "1276-1001-1-ND"
-			(at 314.96 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 314.96 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Position Offset" ""
-			(at 314.96 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 314.96 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "084c2131-2714-48d1-be8d-4bb298f6d4d2")
-		)
-		(pin "2"
-			(uuid "9f64eea6-6cf0-4f26-90e6-d661b298f992")
-		)
-		(instances
-			(project "LEDMatrix"
-				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LCSC:XL-5050RGBC-WS2812B")
-		(at 341.63 107.95 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "35aa6537-c88f-4529-a319-9174b319675e")
-		(property "Reference" "LED3"
-			(at 341.63 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SKC6812RGBW-BW-B"
-			(at 341.63 116.586 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LCSC:LED-SMD_4P-L5.0-W5.0-BL_XL-5050RGBC"
-			(at 341.63 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 341.63 107.95 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_white-0805_C34499.html"
+			(at 337.82 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5079,7 +4731,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 341.63 107.95 0)
+			(at 337.82 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5087,65 +4739,58 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
-			(at 341.63 119.38 0)
+		(property "LCSC Part" "C34499"
+			(at 337.82 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "JLCPCB Rotation Offset" "90"
-			(at 341.63 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5380878"
-			(at 341.63 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "c2857588-86de-4da6-a512-3261e1358cef")
-		)
-		(pin "3"
-			(uuid "e609ee95-a467-4a92-801b-9bea70ab4f3e")
-		)
-		(pin "2"
-			(uuid "8318d58d-fcde-4148-8758-f3f4d0dcc5f6")
 		)
 		(pin "1"
-			(uuid "0194bbc9-9914-465c-8f62-fecef592a04b")
+			(uuid "20829fbd-8cd0-4bb9-b9ff-e0de4f323c75")
+		)
+		(pin "2"
+			(uuid "e1e2c792-5125-4c30-bcbf-9ca6f81dd057")
 		)
 		(instances
-			(project "SevenSegment"
+			(project "MainBoard"
 				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "LED3")
+					(reference "LED10")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 332.74 135.89 0)
+		(lib_id "LCSC:whiteLEDSMD")
+		(at 289.56 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3ab9512c-e992-4d57-ad21-2e5e1a5ffa8c")
-		(property "Reference" "#PWR063"
-			(at 332.74 142.24 0)
+		(fields_autoplaced yes)
+		(uuid "2ab58a0e-6115-4ee2-b97d-0429dfb622a1")
+		(property "Reference" "LED2"
+			(at 290.83 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805W"
+			(at 290.83 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:LED0805-R-RD"
+			(at 289.56 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5153,16 +4798,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 328.93 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 332.74 135.89 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_white-0805_C34499.html"
+			(at 289.56 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5170,8 +4807,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 332.74 135.89 0)
+		(property "Description" ""
+			(at 289.56 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5179,8 +4816,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 332.74 135.89 0)
+		(property "LCSC Part" "C34499"
+			(at 289.56 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5189,12 +4826,92 @@
 			)
 		)
 		(pin "1"
-			(uuid "6a6b98a4-0b91-4109-aed0-9c874ee5027f")
+			(uuid "7893fcb3-f077-4d69-a884-25f661f67632")
+		)
+		(pin "2"
+			(uuid "308e4461-c859-4f81-b137-644bad24a12f")
 		)
 		(instances
-			(project "SevenSegment"
+			(project "MainBoard"
 				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "#PWR063")
+					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC:whiteLEDSMD")
+		(at 289.56 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40923c36-75e3-4a12-80b0-982cd12e7c54")
+		(property "Reference" "LED1"
+			(at 290.83 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805W"
+			(at 290.83 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:LED0805-R-RD"
+			(at 289.56 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_white-0805_C34499.html"
+			(at 289.56 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 289.56 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C34499"
+			(at 289.56 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63c4f35b-6b0c-4f1c-8236-6a6d4ff0232b")
+		)
+		(pin "2"
+			(uuid "fa19e93a-b088-4a1c-b9a4-14d8149b90ef")
+		)
+		(instances
+			(project ""
+				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
+					(reference "LED1")
 					(unit 1)
 				)
 			)
@@ -5330,17 +5047,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5VP")
-		(at 325.12 128.27 0)
+		(lib_id "LCSC:whiteLEDSMD")
+		(at 289.56 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4be38641-5944-4acd-a572-969a7d4d9d67")
-		(property "Reference" "#PWR059"
-			(at 325.12 132.08 0)
+		(uuid "46fd0af6-d9da-429a-9240-5368431b314a")
+		(property "Reference" "LED5"
+			(at 290.83 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805W"
+			(at 290.83 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:LED0805-R-RD"
+			(at 289.56 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5348,16 +5081,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5VP"
-			(at 325.12 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 325.12 128.27 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_white-0805_C34499.html"
+			(at 289.56 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5365,8 +5090,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 325.12 128.27 0)
+		(property "Description" ""
+			(at 289.56 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5374,8 +5099,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5VP\""
-			(at 325.12 128.27 0)
+		(property "LCSC Part" "C34499"
+			(at 289.56 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5384,12 +5109,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "2dfe3458-56ea-4fd7-9961-2b5ed13373a9")
+			(uuid "dbee417f-4587-4589-afdf-ac4958628026")
+		)
+		(pin "2"
+			(uuid "274b130b-d7fd-4c14-a74a-34c10a04041d")
 		)
 		(instances
-			(project "SevenSegment"
+			(project "MainBoard"
 				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "#PWR059")
+					(reference "LED5")
 					(unit 1)
 				)
 			)
@@ -5525,107 +5253,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LCSC:XL-5050RGBC-WS2812B")
-		(at 290.83 107.95 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4e8f13f7-7d96-42bd-b95c-4810179e29ab")
-		(property "Reference" "LED1"
-			(at 290.83 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SKC6812RGBW-BW-B"
-			(at 290.83 116.586 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LCSC:LED-SMD_4P-L5.0-W5.0-BL_XL-5050RGBC"
-			(at 290.83 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 290.83 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 290.83 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 290.83 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" "90"
-			(at 290.83 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5380878"
-			(at 290.83 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "31b9e2b0-5065-43b2-b666-aaf4ce7bca29")
-		)
-		(pin "3"
-			(uuid "55e2e1be-33b5-4973-90e9-70b572325465")
-		)
-		(pin "2"
-			(uuid "15e271b1-01bc-4de7-9932-b7feafae0c1f")
-		)
-		(pin "1"
-			(uuid "a4903d98-5f7e-4a35-8e4e-154e6e470a12")
-		)
-		(instances
-			(project "SevenSegment"
-				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "LED1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LEDMatrix:VDMx10A1")
 		(at 232.41 128.27 0)
 		(unit 1)
@@ -5755,16 +5382,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 327.66 66.04 0)
+		(lib_id "LCSC:whiteLEDSMD")
+		(at 337.82 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "58748644-9401-45c8-a557-bf810226db3e")
-		(property "Reference" "#PWR042"
-			(at 327.66 72.39 0)
+		(fields_autoplaced yes)
+		(uuid "59e17423-c1ea-43d7-9dc1-85efe898d663")
+		(property "Reference" "LED13"
+			(at 339.09 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805W"
+			(at 339.09 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:LED0805-R-RD"
+			(at 337.82 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5772,16 +5416,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 323.85 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 327.66 66.04 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_white-0805_C34499.html"
+			(at 337.82 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5789,8 +5425,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 327.66 66.04 0)
+		(property "Description" ""
+			(at 337.82 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5798,8 +5434,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 327.66 66.04 0)
+		(property "LCSC Part" "C34499"
+			(at 337.82 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5808,12 +5444,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "217c0355-c044-44b7-9bd9-e14cfbde1880")
+			(uuid "6afbc28a-918c-443f-8a50-1f08f721fe8f")
+		)
+		(pin "2"
+			(uuid "c9ad3e91-8d28-4c97-abe6-62f6794d15a7")
 		)
 		(instances
-			(project "LEDMatrix"
+			(project "MainBoard"
 				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "#PWR042")
+					(reference "LED13")
 					(unit 1)
 				)
 			)
@@ -5949,17 +5588,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5VP")
-		(at 340.36 45.72 0)
+		(lib_id "LCSC:whiteLEDSMD")
+		(at 337.82 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "62ac371e-93ca-488a-a1d0-20d9a7a110ef")
-		(property "Reference" "#PWR038"
-			(at 340.36 49.53 0)
+		(uuid "67b045a5-5092-4d5d-a010-10d8839f9def")
+		(property "Reference" "LED14"
+			(at 339.09 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805W"
+			(at 339.09 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:LED0805-R-RD"
+			(at 337.82 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5967,16 +5622,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5VP"
-			(at 340.36 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 340.36 45.72 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_white-0805_C34499.html"
+			(at 337.82 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5984,8 +5631,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 340.36 45.72 0)
+		(property "Description" ""
+			(at 337.82 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5993,73 +5640,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5VP\""
-			(at 340.36 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4df6456b-4f30-476f-9296-cb7e02624168")
-		)
-		(instances
-			(project "SevenSegment"
-				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 306.07 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "634eb731-2b96-4c68-8df1-cc84df4b82c6")
-		(property "Reference" "#PWR068"
-			(at 306.07 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 302.26 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 306.07 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 306.07 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 306.07 160.02 0)
+		(property "LCSC Part" "C34499"
+			(at 337.82 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6068,445 +5650,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "639706ea-49df-4205-b812-c36082885a07")
-		)
-		(instances
-			(project "SevenSegment"
-				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "#PWR068")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5VP")
-		(at 325.12 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6519323b-df72-4d05-a08d-fcfa1a646fdf")
-		(property "Reference" "#PWR046"
-			(at 325.12 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5VP"
-			(at 325.12 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 325.12 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 325.12 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5VP\""
-			(at 325.12 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7d03d15f-86e0-42e8-ac6b-fb81c4b93ac2")
-		)
-		(instances
-			(project "SevenSegment"
-				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 340.36 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "67409bb0-092f-43ca-a39d-6a78a7b31578")
-		(property "Reference" "C25"
-			(at 343.281 54.7116 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 343.281 57.023 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 341.3252 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 340.36 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 340.36 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "1276-1001-1-ND"
-			(at 340.36 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 340.36 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Position Offset" ""
-			(at 340.36 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 340.36 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "13ddcc2b-0ae0-46fe-935c-c95e93ad3e07")
+			(uuid "5fd7d84e-88c9-46ff-b4d9-0ef663c4ad59")
 		)
 		(pin "2"
-			(uuid "4ae65bf1-38ae-4134-98cc-a16f2a6d67ab")
+			(uuid "16c8b429-e780-4ddd-9f28-4d87287ada86")
 		)
 		(instances
-			(project "SevenSegment"
+			(project "MainBoard"
 				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5VP")
-		(at 323.85 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "78d81e8b-07ea-407c-80c7-813eab41b011")
-		(property "Reference" "#PWR065"
-			(at 323.85 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5VP"
-			(at 323.85 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 323.85 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 323.85 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5VP\""
-			(at 323.85 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5b3c42d7-d9f3-4f62-9101-433520e7eb4d")
-		)
-		(instances
-			(project "SevenSegment"
-				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "#PWR065")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 353.06 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7c4ba0b5-82b2-4807-93ec-f4e12949700d")
-		(property "Reference" "#PWR044"
-			(at 353.06 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 349.25 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 353.06 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 353.06 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 353.06 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cea6b428-f6af-46f6-bd96-8785768a72a8")
-		)
-		(instances
-			(project "SevenSegment"
-				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5VP")
-		(at 353.06 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7ccfc2b8-c8de-4b08-9eba-f2b6b4c29286")
-		(property "Reference" "#PWR039"
-			(at 353.06 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5VP"
-			(at 353.06 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 353.06 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 353.06 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5VP\""
-			(at 353.06 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c2d8ce0c-2952-4a52-81f6-de7908564a37")
-		)
-		(instances
-			(project "SevenSegment"
-				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 307.34 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "84a7c71a-ccdf-48d4-983f-68795c55c80b")
-		(property "Reference" "#PWR062"
-			(at 307.34 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 303.53 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 307.34 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 307.34 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 307.34 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ffe923f4-d2c3-4a05-87d9-e567b2c46342")
-		)
-		(instances
-			(project "SevenSegment"
-				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "#PWR062")
+					(reference "LED14")
 					(unit 1)
 				)
 			)
@@ -6642,72 +5794,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5VP")
-		(at 299.72 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "858ef000-016d-4e8e-8aa9-925887170bee")
-		(property "Reference" "#PWR058"
-			(at 299.72 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5VP"
-			(at 299.72 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 299.72 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 299.72 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5VP\""
-			(at 299.72 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "43be0915-851a-4625-a84a-a3cecb31faa2")
-		)
-		(instances
-			(project "SevenSegment"
-				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LEDMatrix:VDMx10A1")
 		(at 137.16 128.27 0)
 		(unit 1)
@@ -6837,431 +5923,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5VP")
-		(at 302.26 45.72 0)
+		(lib_id "LCSC:whiteLEDSMD")
+		(at 289.56 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "87708063-8e07-4acc-b783-1cab5ad6b376")
-		(property "Reference" "#PWR05"
-			(at 302.26 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5VP"
-			(at 302.26 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 302.26 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 302.26 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5VP\""
-			(at 302.26 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7285aa78-24c2-459d-b52a-17e49621042e")
-		)
-		(instances
-			(project "SevenSegment"
-				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 281.94 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8bae1506-c315-460b-9cc3-0b0f49f9daaf")
-		(property "Reference" "#PWR048"
-			(at 281.94 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 278.13 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 281.94 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 281.94 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 281.94 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "291812e7-dd4b-47cc-9580-2bbb9005309c")
-		)
-		(instances
-			(project "SevenSegment"
-				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 281.94 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "941b7207-3c19-49d0-be88-969c7d48ff7c")
-		(property "Reference" "#PWR061"
-			(at 281.94 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 278.13 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 281.94 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 281.94 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 281.94 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e37aca0f-74d3-46d4-86c6-5d2160fb398e")
-		)
-		(instances
-			(project "SevenSegment"
-				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "#PWR061")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 314.96 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "97be3519-9944-445d-91d8-642d294770fa")
-		(property "Reference" "#PWR041"
-			(at 314.96 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 311.15 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 314.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 314.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 314.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "56c9308f-fc48-4d95-9872-6d637633c1fd")
-		)
-		(instances
-			(project "LEDMatrix"
-				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LCSC:XL-5050RGBC-WS2812B")
-		(at 316.23 107.95 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "99a83e26-b26b-4daa-9c59-c2ea9cfa993d")
-		(property "Reference" "LED2"
-			(at 316.23 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SKC6812RGBW-BW-B"
-			(at 316.23 116.586 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LCSC:LED-SMD_4P-L5.0-W5.0-BL_XL-5050RGBC"
-			(at 316.23 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 316.23 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 316.23 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 316.23 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" "90"
-			(at 316.23 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5380878"
-			(at 316.23 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "f61ee818-3544-4707-8154-ae2993c285c2")
-		)
-		(pin "3"
-			(uuid "f5a2bfb3-6b9c-4614-a748-bac3738ae2a2")
-		)
-		(pin "2"
-			(uuid "ed252856-8fcb-42ac-87eb-c2bbbb5eb6d3")
-		)
-		(pin "1"
-			(uuid "f8966666-329d-4d7d-9471-ca0b7a2ced5e")
-		)
-		(instances
-			(project "SevenSegment"
-				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "LED2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LCSC:XL-5050RGBC-WS2812B")
-		(at 290.83 132.08 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ab6a657d-d061-47ed-856e-5f8f9194cff5")
-		(property "Reference" "LED4"
-			(at 290.83 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SKC6812RGBW-BW-B"
-			(at 290.83 140.716 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LCSC:LED-SMD_4P-L5.0-W5.0-BL_XL-5050RGBC"
-			(at 290.83 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 290.83 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 290.83 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" ""
+		(uuid "87f6f9c7-651e-49b0-a55a-9010035c0ea4")
+		(property "Reference" "LED6"
 			(at 290.83 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "90"
-			(at 290.83 132.08 0)
+		(property "Value" "KT-0805W"
+			(at 290.83 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:LED0805-R-RD"
+			(at 289.56 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7269,73 +5957,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5380878"
-			(at 290.83 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "5232f03b-047b-43dc-b8bf-69014c5c94f3")
-		)
-		(pin "3"
-			(uuid "8d57098d-8779-415d-ba75-a98fe01b1a25")
-		)
-		(pin "2"
-			(uuid "36ca2629-0ef8-4cf1-9f1d-b7017c6724a7")
-		)
-		(pin "1"
-			(uuid "295f9052-c422-4c3f-a359-009e0ab70116")
-		)
-		(instances
-			(project "SevenSegment"
-				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "LED4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LCSC:XL-5050RGBC-WS2812B")
-		(at 316.23 132.08 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ad332428-8646-4185-9c24-375a15b92188")
-		(property "Reference" "LED5"
-			(at 316.23 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SKC6812RGBW-BW-B"
-			(at 316.23 140.716 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LCSC:LED-SMD_4P-L5.0-W5.0-BL_XL-5050RGBC"
-			(at 316.23 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 316.23 132.08 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_white-0805_C34499.html"
+			(at 289.56 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7344,7 +5967,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 316.23 132.08 0)
+			(at 289.56 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7352,8 +5975,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
-			(at 316.23 143.51 0)
+		(property "LCSC Part" "C34499"
+			(at 289.56 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7361,310 +5984,14 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "90"
-			(at 316.23 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5380878"
-			(at 316.23 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "53c98751-ef94-4500-aa7a-a0d5752cbda1")
-		)
-		(pin "3"
-			(uuid "6203eb74-577f-4ed8-bc19-e1644076030e")
+		(pin "1"
+			(uuid "4109d48e-d3f7-4452-91e3-fbee41953d1c")
 		)
 		(pin "2"
-			(uuid "e9b0372d-4d1a-4b9e-8f26-f174ee47b32a")
-		)
-		(pin "1"
-			(uuid "9bfd6095-e25a-42dc-88c6-cc33ce283458")
+			(uuid "2fb7abe4-9455-44b9-889e-35146294585e")
 		)
 		(instances
-			(project "SevenSegment"
-				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "LED5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 365.76 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b3d16331-200e-4aa8-8e26-01b7d372b6c2")
-		(property "Reference" "C27"
-			(at 368.681 54.7116 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 368.681 57.023 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 366.7252 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 365.76 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 365.76 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "1276-1001-1-ND"
-			(at 365.76 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 365.76 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Position Offset" ""
-			(at 365.76 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 365.76 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ba72732b-5f4d-4bed-889e-c8be55f4d75b")
-		)
-		(pin "2"
-			(uuid "8af7bd32-b16d-41a9-b525-8bbb6c32c235")
-		)
-		(instances
-			(project "SevenSegment"
-				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "C27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5VP")
-		(at 298.45 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bdd7de0f-9a80-4a33-9a09-fcfc40359b65")
-		(property "Reference" "#PWR064"
-			(at 298.45 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5VP"
-			(at 298.45 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 298.45 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 298.45 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5VP\""
-			(at 298.45 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f56ae8ef-c49a-4cd9-a9d4-f347611c248a")
-		)
-		(instances
-			(project "SevenSegment"
-				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "#PWR064")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LCSC:XL-5050RGBC-WS2812B")
-		(at 341.63 132.08 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c25f1a96-a0d1-4169-ae47-445e653368a6")
-		(property "Reference" "LED6"
-			(at 341.63 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SKC6812RGBW-BW-B"
-			(at 341.63 140.716 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LCSC:LED-SMD_4P-L5.0-W5.0-BL_XL-5050RGBC"
-			(at 341.63 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 341.63 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 341.63 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 341.63 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" "90"
-			(at 341.63 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5380878"
-			(at 341.63 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "63def941-a043-4918-a8c5-0f2e1e02a07c")
-		)
-		(pin "3"
-			(uuid "31f9e674-30bd-4b19-b16d-f45b06cf4d45")
-		)
-		(pin "2"
-			(uuid "6603f505-eddf-4173-ad7f-1967220ac351")
-		)
-		(pin "1"
-			(uuid "5b944aa4-500e-495c-98b7-4cc3b2f8e217")
-		)
-		(instances
-			(project "SevenSegment"
+			(project "MainBoard"
 				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
 					(reference "LED6")
 					(unit 1)
@@ -7673,16 +6000,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 280.67 160.02 0)
+		(lib_id "LCSC:whiteLEDSMD")
+		(at 289.56 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c3f8eca4-286b-4c46-aae5-73044d351b66")
-		(property "Reference" "#PWR067"
-			(at 280.67 166.37 0)
+		(fields_autoplaced yes)
+		(uuid "99c8e0d1-837f-464c-87a3-cfbd1c3cb8c9")
+		(property "Reference" "LED8"
+			(at 290.83 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805W"
+			(at 290.83 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:LED0805-R-RD"
+			(at 289.56 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7690,16 +6034,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 276.86 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 280.67 160.02 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_white-0805_C34499.html"
+			(at 289.56 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7707,8 +6043,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 280.67 160.02 0)
+		(property "Description" ""
+			(at 289.56 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7716,8 +6052,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 280.67 160.02 0)
+		(property "LCSC Part" "C34499"
+			(at 289.56 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7726,133 +6062,48 @@
 			)
 		)
 		(pin "1"
-			(uuid "cea83745-de7a-480b-a9a8-384526c92d4e")
-		)
-		(instances
-			(project "SevenSegment"
-				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 353.06 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c530f303-e781-4bb1-a035-9c533b6c6203")
-		(property "Reference" "C26"
-			(at 355.981 54.7116 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 355.981 57.023 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 354.0252 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 353.06 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 353.06 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "1276-1001-1-ND"
-			(at 353.06 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 353.06 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Position Offset" ""
-			(at 353.06 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 353.06 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7a1f25fc-7869-4c36-b780-117882b93f00")
+			(uuid "9900a2e4-d309-4cfd-a070-4d5c2002c145")
 		)
 		(pin "2"
-			(uuid "e279aa36-26c2-4be1-97ec-c4d6644ccb21")
+			(uuid "5b7cf10f-4356-4cfe-b547-ad94f7bb2a7e")
 		)
 		(instances
-			(project "SevenSegment"
+			(project "MainBoard"
 				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "C26")
+					(reference "LED8")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 340.36 66.04 0)
+		(lib_id "LCSC:whiteLEDSMD")
+		(at 378.46 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "cc4ae36c-13a4-4f11-b4f7-c5912496b740")
-		(property "Reference" "#PWR043"
-			(at 340.36 72.39 0)
+		(fields_autoplaced yes)
+		(uuid "9f71258b-f6c4-4c5b-b668-024d077870aa")
+		(property "Reference" "LED18"
+			(at 379.73 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805W"
+			(at 379.73 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:LED0805-R-RD"
+			(at 378.46 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7860,16 +6111,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 336.55 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 340.36 66.04 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_white-0805_C34499.html"
+			(at 378.46 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7877,8 +6120,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 340.36 66.04 0)
+		(property "Description" ""
+			(at 378.46 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7886,8 +6129,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 340.36 66.04 0)
+		(property "LCSC Part" "C34499"
+			(at 378.46 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7896,12 +6139,554 @@
 			)
 		)
 		(pin "1"
-			(uuid "8b2501a0-3b67-4a1d-bcd2-003feb3fbd25")
+			(uuid "3e290e1c-1f9f-41e2-bf42-a1fa96eee4ed")
+		)
+		(pin "2"
+			(uuid "cd83babc-c2e8-4273-9acf-5629227f1852")
 		)
 		(instances
-			(project "SevenSegment"
+			(project "MainBoard"
 				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "#PWR043")
+					(reference "LED18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC:whiteLEDSMD")
+		(at 289.56 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2caf622-6823-45d8-a416-304f2d22780a")
+		(property "Reference" "LED7"
+			(at 290.83 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805W"
+			(at 290.83 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:LED0805-R-RD"
+			(at 289.56 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_white-0805_C34499.html"
+			(at 289.56 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 289.56 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C34499"
+			(at 289.56 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f1a1177-41b5-4fd5-8662-166003c3a240")
+		)
+		(pin "2"
+			(uuid "e20764c8-9bbb-442e-bd27-59e32aae7057")
+		)
+		(instances
+			(project "MainBoard"
+				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
+					(reference "LED7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC:whiteLEDSMD")
+		(at 378.46 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a311b6c6-3a17-4ed3-b2dd-fde3747598d9")
+		(property "Reference" "LED21"
+			(at 379.73 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805W"
+			(at 379.73 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:LED0805-R-RD"
+			(at 378.46 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_white-0805_C34499.html"
+			(at 378.46 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 378.46 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C34499"
+			(at 378.46 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "278bceeb-ca31-46be-b4f0-9e0a7e68f62a")
+		)
+		(pin "2"
+			(uuid "9c2e3d40-d070-4712-8c55-f1d015c14187")
+		)
+		(instances
+			(project "MainBoard"
+				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
+					(reference "LED21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC:whiteLEDSMD")
+		(at 378.46 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7fbd270-8a92-4877-b587-ae603274f954")
+		(property "Reference" "LED19"
+			(at 379.73 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805W"
+			(at 379.73 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:LED0805-R-RD"
+			(at 378.46 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_white-0805_C34499.html"
+			(at 378.46 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 378.46 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C34499"
+			(at 378.46 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3efce08e-1e2e-47df-81cc-ab2bbe73604a")
+		)
+		(pin "2"
+			(uuid "e56b0f1c-b3ac-42b9-8f5b-888d3f93718e")
+		)
+		(instances
+			(project "MainBoard"
+				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
+					(reference "LED19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC:whiteLEDSMD")
+		(at 337.82 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b405f35f-89c3-4428-86ce-5e8630519d09")
+		(property "Reference" "LED11"
+			(at 339.09 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805W"
+			(at 339.09 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:LED0805-R-RD"
+			(at 337.82 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_white-0805_C34499.html"
+			(at 337.82 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 337.82 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C34499"
+			(at 337.82 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cff20daa-0ff2-423e-a0e0-9c681a375397")
+		)
+		(pin "2"
+			(uuid "b01617e1-3490-4b57-8d1b-809cb977e4df")
+		)
+		(instances
+			(project "MainBoard"
+				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
+					(reference "LED11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC:whiteLEDSMD")
+		(at 378.46 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9902989-f6f5-4359-802d-f8713b619462")
+		(property "Reference" "LED16"
+			(at 379.73 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805W"
+			(at 379.73 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:LED0805-R-RD"
+			(at 378.46 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_white-0805_C34499.html"
+			(at 378.46 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 378.46 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C34499"
+			(at 378.46 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0fc12944-3540-400c-923c-eb1f5583be57")
+		)
+		(pin "2"
+			(uuid "9efebff7-6d42-411d-ab8c-82090076ba7f")
+		)
+		(instances
+			(project "MainBoard"
+				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
+					(reference "LED16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC:whiteLEDSMD")
+		(at 378.46 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba5773fd-27c5-44b2-9738-fc8139c1ecb9")
+		(property "Reference" "LED20"
+			(at 379.73 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805W"
+			(at 379.73 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:LED0805-R-RD"
+			(at 378.46 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_white-0805_C34499.html"
+			(at 378.46 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 378.46 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C34499"
+			(at 378.46 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0d2a77d-06fc-45c0-80ec-1033acab6e9f")
+		)
+		(pin "2"
+			(uuid "11a2beba-109e-40ac-a124-55747093322b")
+		)
+		(instances
+			(project "MainBoard"
+				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
+					(reference "LED20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC:whiteLEDSMD")
+		(at 337.82 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc8d398b-2e4a-4332-a517-2b7665abdcd1")
+		(property "Reference" "LED15"
+			(at 339.09 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805W"
+			(at 339.09 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:LED0805-R-RD"
+			(at 337.82 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_white-0805_C34499.html"
+			(at 337.82 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 337.82 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C34499"
+			(at 337.82 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e7e5ab9-4fec-46d0-a4a5-9fc46f99864e")
+		)
+		(pin "2"
+			(uuid "18dd5c02-22a6-47e5-8c55-1a0ef8c00472")
+		)
+		(instances
+			(project "MainBoard"
+				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
+					(reference "LED15")
 					(unit 1)
 				)
 			)
@@ -8166,17 +6951,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5VP")
-		(at 327.66 45.72 0)
+		(lib_id "LCSC:whiteLEDSMD")
+		(at 289.56 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e0c4ca3a-7166-4416-8a6b-1ac7dc90ea92")
-		(property "Reference" "#PWR030"
-			(at 327.66 49.53 0)
+		(uuid "d64aab6c-6d6a-4c8a-bf62-f9b24583d126")
+		(property "Reference" "LED4"
+			(at 290.83 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805W"
+			(at 290.83 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:LED0805-R-RD"
+			(at 289.56 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8184,90 +6985,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5VP"
-			(at 327.66 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 327.66 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 327.66 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5VP\""
-			(at 327.66 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6497535d-67cd-40dd-9cb4-3971bcc86541")
-		)
-		(instances
-			(project "SevenSegment"
-				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LCSC:XL-5050RGBC-WS2812B")
-		(at 289.56 156.21 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ead17690-b016-485c-8f8b-3142d726d31f")
-		(property "Reference" "LED7"
-			(at 289.56 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SKC6812RGBW-BW-B"
-			(at 289.56 164.846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LCSC:LED-SMD_4P-L5.0-W5.0-BL_XL-5050RGBC"
-			(at 289.56 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 289.56 156.21 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_white-0805_C34499.html"
+			(at 289.56 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8276,7 +6995,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 289.56 156.21 0)
+			(at 289.56 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8284,8 +7003,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
-			(at 289.56 167.64 0)
+		(property "LCSC Part" "C34499"
+			(at 289.56 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8293,332 +7012,49 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "90"
-			(at 289.56 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5380878"
-			(at 289.56 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "4a5006bb-aebe-4ce4-80ee-9997af820eb3")
-		)
-		(pin "3"
-			(uuid "1f3e51f9-cead-4003-92b3-bfc870f80b20")
+		(pin "1"
+			(uuid "0c353c8e-75f3-432f-8577-d054a27fb44e")
 		)
 		(pin "2"
-			(uuid "43bef74d-efb3-4153-be54-05b87de0a94d")
-		)
-		(pin "1"
-			(uuid "d125d729-104a-44e3-86d5-069ae61c91f0")
+			(uuid "2eb68597-4a70-4c49-a904-cd28f56b2a92")
 		)
 		(instances
-			(project "SevenSegment"
+			(project "MainBoard"
 				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "LED7")
+					(reference "LED4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 302.26 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ed731017-6daa-4188-8a37-ad093da2a796")
-		(property "Reference" "#PWR040"
-			(at 302.26 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 298.45 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 302.26 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 302.26 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 302.26 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "46f14cc5-289b-495d-8e15-4839e7253691")
-		)
-		(instances
-			(project "LEDMatrix"
-				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 327.66 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f2cb2f48-1e53-4098-81eb-ba4acb659b83")
-		(property "Reference" "C22"
-			(at 330.581 54.7116 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 330.581 57.023 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 328.6252 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 327.66 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 327.66 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "1276-1001-1-ND"
-			(at 327.66 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 327.66 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Position Offset" ""
-			(at 327.66 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 327.66 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e9f9d999-944b-4cc3-8a95-4a55888965c0")
-		)
-		(pin "2"
-			(uuid "b023488f-c0e6-4432-beac-554eaf732ab0")
-		)
-		(instances
-			(project "LEDMatrix"
-				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 302.26 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f592414a-dcdf-4dd0-b78d-a14607a94e2e")
-		(property "Reference" "C20"
-			(at 305.181 54.7116 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 305.181 57.023 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 303.2252 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 302.26 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 302.26 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "1276-1001-1-ND"
-			(at 302.26 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 302.26 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Position Offset" ""
-			(at 302.26 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 302.26 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0b4a6460-6d62-4aba-8459-56725255b4b1")
-		)
-		(pin "2"
-			(uuid "e343e992-2c7a-42bd-a019-41641142d1c4")
-		)
-		(instances
-			(project "LEDMatrix"
-				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5VP")
-		(at 299.72 104.14 0)
+		(lib_id "LCSC:whiteLEDSMD")
+		(at 337.82 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f8ceeb83-02c5-44e2-94b4-d0328fad53c0")
-		(property "Reference" "#PWR045"
-			(at 299.72 107.95 0)
+		(uuid "e3cee42c-6dd1-42cd-be5f-167ea65cd7c9")
+		(property "Reference" "LED12"
+			(at 339.09 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805W"
+			(at 339.09 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:LED0805-R-RD"
+			(at 337.82 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8626,16 +7062,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5VP"
-			(at 299.72 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 299.72 104.14 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_white-0805_C34499.html"
+			(at 337.82 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8643,8 +7071,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 299.72 104.14 0)
+		(property "Description" ""
+			(at 337.82 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8652,8 +7080,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5VP\""
-			(at 299.72 104.14 0)
+		(property "LCSC Part" "C34499"
+			(at 337.82 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8662,12 +7090,169 @@
 			)
 		)
 		(pin "1"
-			(uuid "e59685b0-dadc-4063-a4b5-ae855bb14560")
+			(uuid "ee25750b-ceff-4873-a3ec-8d42dc6374f8")
+		)
+		(pin "2"
+			(uuid "17ae9023-dbc7-4b3a-808a-89d685705f6c")
 		)
 		(instances
-			(project "SevenSegment"
+			(project "MainBoard"
 				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
-					(reference "#PWR045")
+					(reference "LED12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC:whiteLEDSMD")
+		(at 378.46 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4f00424-1d1a-4481-8de9-cce77fa72ea8")
+		(property "Reference" "LED17"
+			(at 379.73 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805W"
+			(at 379.73 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:LED0805-R-RD"
+			(at 378.46 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_white-0805_C34499.html"
+			(at 378.46 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 378.46 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C34499"
+			(at 378.46 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9088d15a-9bea-4cc6-8e23-2ea142698556")
+		)
+		(pin "2"
+			(uuid "5f77d682-d73d-4576-92e8-76d89b88e9bb")
+		)
+		(instances
+			(project "MainBoard"
+				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
+					(reference "LED17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC:whiteLEDSMD")
+		(at 289.56 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ffd90ef5-8e51-4fd3-aafd-c182a0bbeab4")
+		(property "Reference" "LED3"
+			(at 290.83 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805W"
+			(at 290.83 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:LED0805-R-RD"
+			(at 289.56 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_white-0805_C34499.html"
+			(at 289.56 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 289.56 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C34499"
+			(at 289.56 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eecabd13-4286-4194-9916-0488a2498dda")
+		)
+		(pin "2"
+			(uuid "69055b2c-65cf-4520-b242-0ef892921f89")
+		)
+		(instances
+			(project "MainBoard"
+				(path "/2fa7b4ce-e682-4c2e-9419-b1318fe8c56d/811b33f2-c0b3-41a3-829f-026bb0f90e22/f63f905b-22ec-4429-a6cc-d5bead0b72cb"
+					(reference "LED3")
 					(unit 1)
 				)
 			)
